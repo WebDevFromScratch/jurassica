@@ -1,0 +1,83 @@
+{
+	"quetzalcoatlus": {
+		"name": {
+			"singular": "Quetzalcoatlus",
+			"plural": "Quetzalcoatli"
+		},
+		"level": 5,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 900,
+			"mercury": 1,
+			"sulfur": 1
+		},
+		"fightValue": 1400,
+		"aiValue": 1600,
+		"growth": 3,
+		"attack": 13,
+		"defense": 11,
+		"hitPoints": 50,
+		"speed": 11,
+		"damage": {
+			"min": 9,
+			"max": 14
+		},
+		"shots": 24,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 3,
+			"max": 9
+		},
+		"abilities": [
+			{
+				"type": "FLYING",
+				"subtype": "creatureSelf",
+				"val": 0
+			},
+			{
+				"type": "SHOOTER",
+				"subtype": "creatureSelf",
+				"val": 0
+			},
+			{
+				"type": "NO_MELEE_PENALTY",
+				"subtype": "creatureSelf",
+				"val": 0
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/quetzalcoatlus/quetzalcoatlus.json",
+			"iconSmall": "jurassica/sprites/icons/quetzalcoatlusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/quetzalcoatlusLarge.png",
+			"map": "jurassica/sprites/adventure/quetzalcoatlusMap.json",
+			"missile": {
+				"animation": "jurassica/sprites/creatures/quetzalcoatlus/quetzalcoatlusMissile.json",
+				"offset": {
+					"upperX": 0,
+					"upperY": -25,
+					"middleX": 15,
+					"middleY": -5,
+					"lowerX": 0,
+					"lowerY": 15
+				},
+				"frameAngles": [90, 78, 67, 56, 45, 34, 23, 12, 0, -12, -23, -34, -45]
+			},
+			"animationTime": {
+				"walk": 0.6,
+				"idle": 1.0,
+				"attack": 0.5
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/quetzalcoatlusAttack.wav",
+			"defend": "jurassica/sounds/creatures/quetzalcoatlusDefend.wav",
+			"killed": "jurassica/sounds/creatures/quetzalcoatlusKilled.wav",
+			"move": "jurassica/sounds/creatures/quetzalcoatlusMove.wav",
+			"shoot": "jurassica/sounds/creatures/quetzalcoatlusShoot.wav",
+			"wince": "jurassica/sounds/creatures/quetzalcoatlusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/quetzalcoatlusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/quetzalcoatlusEndMoving.wav"
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"stegosaurus": {
+		"name": {
+			"singular": "Stegosaurus",
+			"plural": "Stegosauruses"
+		},
+		"level": 4,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 500,
+			"crystal": 1
+		},
+		"fightValue": 800,
+		"aiValue": 900,
+		"growth": 4,
+		"attack": 8,
+		"defense": 11,
+		"hitPoints": 45,
+		"speed": 4,
+		"damage": {
+			"min": 6,
+			"max": 10
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 5,
+			"max": 12
+		},
+		"upgrades": [
+			"jurassica:kentrosaurus"
+		],
+		"abilities": [
+			{
+				"type": "UNLIMITED_RETALIATIONS",
+				"subtype": "creatureSelf",
+				"val": 0
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/stegosaurus/stegosaurus.json",
+			"iconSmall": "jurassica/sprites/icons/stegosaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/stegosaurusLarge.png",
+			"map": "jurassica/sprites/adventure/stegosaurusMap.json",
+			"animationTime": {
+				"walk": 0.9,
+				"idle": 1.0,
+				"attack": 0.6
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/stegosaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/stegosaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/stegosaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/stegosaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/stegosaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/stegosaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/stegosaurusEndMoving.wav"
+		}
+	}
+}

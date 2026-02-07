@@ -1,0 +1,56 @@
+{
+	"triceratops": {
+		"name": {
+			"singular": "Triceratops",
+			"plural": "Triceratopses"
+		},
+		"level": 3,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 300,
+			"ore": 2
+		},
+		"fightValue": 550,
+		"aiValue": 650,
+		"growth": 6,
+		"attack": 7,
+		"defense": 10,
+		"hitPoints": 35,
+		"speed": 5,
+		"damage": {
+			"min": 5,
+			"max": 8
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 7,
+			"max": 18
+		},
+		"upgrades": [
+			"jurassica:torosaurus"
+		],
+		"abilities": [],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/triceratops/triceratops.json",
+			"iconSmall": "jurassica/sprites/icons/triceratopsSmall.png",
+			"iconLarge": "jurassica/sprites/icons/triceratopsLarge.png",
+			"map": "jurassica/sprites/adventure/triceratopsMap.json",
+			"animationTime": {
+				"walk": 0.8,
+				"idle": 1.0,
+				"attack": 0.6
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/triceratopsAttack.wav",
+			"defend": "jurassica/sounds/creatures/triceratopsDefend.wav",
+			"killed": "jurassica/sounds/creatures/triceratopsKilled.wav",
+			"move": "jurassica/sounds/creatures/triceratopsMove.wav",
+			"wince": "jurassica/sounds/creatures/triceratopsWince.wav",
+			"startMoving": "jurassica/sounds/creatures/triceratopsStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/triceratopsEndMoving.wav"
+		}
+	}
+}

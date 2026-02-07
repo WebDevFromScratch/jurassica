@@ -1,0 +1,65 @@
+{
+	"mosasaurus": {
+		"name": {
+			"singular": "Mosasaurus",
+			"plural": "Mosasauruses"
+		},
+		"level": 6,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 1500,
+			"sulfur": 2,
+			"mercury": 1
+		},
+		"fightValue": 2500,
+		"aiValue": 3500,
+		"growth": 2,
+		"attack": 16,
+		"defense": 15,
+		"hitPoints": 100,
+		"speed": 8,
+		"damage": {
+			"min": 15,
+			"max": 22
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 2,
+			"max": 6
+		},
+		"abilities": [
+			{
+				"type": "ENEMY_MORALE_DECREASING",
+				"subtype": "creatureSelf",
+				"val": -1
+			},
+			{
+				"type": "THREE_HEADED_ATTACK",
+				"subtype": "creatureSelf",
+				"val": 0
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/mosasaurus/mosasaurus.json",
+			"iconSmall": "jurassica/sprites/icons/mosasaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/mosasaurusLarge.png",
+			"map": "jurassica/sprites/adventure/mosasaurusMap.json",
+			"animationTime": {
+				"walk": 0.9,
+				"idle": 1.2,
+				"attack": 0.7
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/mosasaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/mosasaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/mosasaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/mosasaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/mosasaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/mosasaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/mosasaurusEndMoving.wav"
+		}
+	}
+}

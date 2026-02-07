@@ -1,0 +1,71 @@
+{
+	"giganotosaurus": {
+		"name": {
+			"singular": "Giganotosaurus",
+			"plural": "Giganotosauruses"
+		},
+		"level": 7,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 4500,
+			"sulfur": 3,
+			"crystal": 2,
+			"gems": 1
+		},
+		"fightValue": 7000,
+		"aiValue": 9000,
+		"growth": 1,
+		"attack": 22,
+		"defense": 18,
+		"hitPoints": 240,
+		"speed": 9,
+		"damage": {
+			"min": 30,
+			"max": 55
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 1,
+			"max": 4
+		},
+		"abilities": [
+			{
+				"type": "ENEMY_MORALE_DECREASING",
+				"subtype": "creatureSelf",
+				"val": -1
+			},
+			{
+				"type": "HATE",
+				"subtype": "creature.dragon",
+				"val": 50
+			},
+			{
+				"type": "MAGIC_RESISTANCE",
+				"subtype": "creatureSelf",
+				"val": 20
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/giganotosaurus/giganotosaurus.json",
+			"iconSmall": "jurassica/sprites/icons/giganotosaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/giganotosaurusLarge.png",
+			"map": "jurassica/sprites/adventure/giganotosaurusMap.json",
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 1.2,
+				"attack": 0.8
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/giganotosaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/giganotosaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/giganotosaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/giganotosaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/giganotosaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/giganotosaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/giganotosaurusEndMoving.wav"
+		}
+	}
+}

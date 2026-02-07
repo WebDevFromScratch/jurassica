@@ -1,0 +1,62 @@
+{
+	"elasmosaurus": {
+		"name": {
+			"singular": "Elasmosaurus",
+			"plural": "Elasmosauruses"
+		},
+		"level": 6,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 1200,
+			"sulfur": 2
+		},
+		"fightValue": 2100,
+		"aiValue": 2800,
+		"growth": 2,
+		"attack": 14,
+		"defense": 13,
+		"hitPoints": 80,
+		"speed": 6,
+		"damage": {
+			"min": 12,
+			"max": 18
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 2,
+			"max": 6
+		},
+		"upgrades": [
+			"jurassica:mosasaurus"
+		],
+		"abilities": [
+			{
+				"type": "ENEMY_MORALE_DECREASING",
+				"subtype": "creatureSelf",
+				"val": -1
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/elasmosaurus/elasmosaurus.json",
+			"iconSmall": "jurassica/sprites/icons/elasmosaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/elasmosaurusLarge.png",
+			"map": "jurassica/sprites/adventure/elasmosaurusMap.json",
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 1.2,
+				"attack": 0.7
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/elasmosaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/elasmosaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/elasmosaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/elasmosaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/elasmosaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/elasmosaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/elasmosaurusEndMoving.wav"
+		}
+	}
+}

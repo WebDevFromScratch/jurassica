@@ -1,0 +1,80 @@
+{
+	"pterodactyl": {
+		"name": {
+			"singular": "Pterodactyl",
+			"plural": "Pterodactyls"
+		},
+		"level": 5,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 700,
+			"mercury": 1
+		},
+		"fightValue": 1100,
+		"aiValue": 1300,
+		"growth": 3,
+		"attack": 11,
+		"defense": 9,
+		"hitPoints": 40,
+		"speed": 9,
+		"damage": {
+			"min": 7,
+			"max": 11
+		},
+		"shots": 12,
+		"spellPoints": 0,
+		"doubleWide": false,
+		"advMapAmount": {
+			"min": 3,
+			"max": 9
+		},
+		"upgrades": [
+			"jurassica:quetzalcoatlus"
+		],
+		"abilities": [
+			{
+				"type": "FLYING",
+				"subtype": "creatureSelf",
+				"val": 0
+			},
+			{
+				"type": "SHOOTER",
+				"subtype": "creatureSelf",
+				"val": 0
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/pterodactyl/pterodactyl.json",
+			"iconSmall": "jurassica/sprites/icons/pterodactylSmall.png",
+			"iconLarge": "jurassica/sprites/icons/pterodactylLarge.png",
+			"map": "jurassica/sprites/adventure/pterodactylMap.json",
+			"missile": {
+				"animation": "jurassica/sprites/creatures/pterodactyl/pterodactylMissile.json",
+				"offset": {
+					"upperX": 0,
+					"upperY": -20,
+					"middleX": 10,
+					"middleY": -5,
+					"lowerX": 0,
+					"lowerY": 10
+				},
+				"frameAngles": [90, 78, 67, 56, 45, 34, 23, 12, 0, -12, -23, -34, -45]
+			},
+			"animationTime": {
+				"walk": 0.6,
+				"idle": 1.0,
+				"attack": 0.5
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/pterodactylAttack.wav",
+			"defend": "jurassica/sounds/creatures/pterodactylDefend.wav",
+			"killed": "jurassica/sounds/creatures/pterodactylKilled.wav",
+			"move": "jurassica/sounds/creatures/pterodactylMove.wav",
+			"shoot": "jurassica/sounds/creatures/pterodactylShoot.wav",
+			"wince": "jurassica/sounds/creatures/pterodactylWince.wav",
+			"startMoving": "jurassica/sounds/creatures/pterodactylStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/pterodactylEndMoving.wav"
+		}
+	}
+}

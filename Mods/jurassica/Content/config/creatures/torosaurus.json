@@ -1,0 +1,59 @@
+{
+	"torosaurus": {
+		"name": {
+			"singular": "Torosaurus",
+			"plural": "Torosauruses"
+		},
+		"level": 3,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 400,
+			"ore": 2
+		},
+		"fightValue": 600,
+		"aiValue": 700,
+		"growth": 6,
+		"attack": 9,
+		"defense": 12,
+		"hitPoints": 45,
+		"speed": 6,
+		"damage": {
+			"min": 6,
+			"max": 10
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 7,
+			"max": 18
+		},
+		"abilities": [
+			{
+				"type": "JOUSTING",
+				"subtype": "creatureSelf",
+				"val": 5
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/torosaurus/torosaurus.json",
+			"iconSmall": "jurassica/sprites/icons/torosaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/torosaurusLarge.png",
+			"map": "jurassica/sprites/adventure/torosaurusMap.json",
+			"animationTime": {
+				"walk": 0.8,
+				"idle": 1.0,
+				"attack": 0.6
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/torosaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/torosaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/torosaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/torosaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/torosaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/torosaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/torosaurusEndMoving.wav"
+		}
+	}
+}

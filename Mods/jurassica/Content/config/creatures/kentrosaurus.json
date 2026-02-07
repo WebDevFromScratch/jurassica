@@ -1,0 +1,65 @@
+{
+	"kentrosaurus": {
+		"name": {
+			"singular": "Kentrosaurus",
+			"plural": "Kentrosauruses"
+		},
+		"level": 4,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 600,
+			"crystal": 1,
+			"sulfur": 1
+		},
+		"fightValue": 900,
+		"aiValue": 1000,
+		"growth": 4,
+		"attack": 10,
+		"defense": 13,
+		"hitPoints": 55,
+		"speed": 5,
+		"damage": {
+			"min": 8,
+			"max": 12
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 5,
+			"max": 12
+		},
+		"abilities": [
+			{
+				"type": "UNLIMITED_RETALIATIONS",
+				"subtype": "creatureSelf",
+				"val": 0
+			},
+			{
+				"type": "FIRE_SHIELD",
+				"subtype": "creatureSelf",
+				"val": 20
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/kentrosaurus/kentrosaurus.json",
+			"iconSmall": "jurassica/sprites/icons/kentrosaurusSmall.png",
+			"iconLarge": "jurassica/sprites/icons/kentrosaurusLarge.png",
+			"map": "jurassica/sprites/adventure/kentrosaurusMap.json",
+			"animationTime": {
+				"walk": 0.9,
+				"idle": 1.0,
+				"attack": 0.6
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/kentrosaurusAttack.wav",
+			"defend": "jurassica/sounds/creatures/kentrosaurusDefend.wav",
+			"killed": "jurassica/sounds/creatures/kentrosaurusKilled.wav",
+			"move": "jurassica/sounds/creatures/kentrosaurusMove.wav",
+			"wince": "jurassica/sounds/creatures/kentrosaurusWince.wav",
+			"startMoving": "jurassica/sounds/creatures/kentrosaurusStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/kentrosaurusEndMoving.wav"
+		}
+	}
+}

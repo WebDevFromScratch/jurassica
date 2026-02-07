@@ -1,0 +1,144 @@
+{
+  "warden": {
+    "name": "Warden",
+    "faction": "jurassica",
+    "affinity": "might",
+    "commander": "mage",
+    "primarySkills": {
+      "attack": 3,
+      "defence": 2,
+      "spellpower": 1,
+      "knowledge": 1
+    },
+    "lowLevelChance": {
+      "attack": 40,
+      "defence": 30,
+      "spellpower": 15,
+      "knowledge": 15
+    },
+    "highLevelChance": {
+      "attack": 35,
+      "defence": 30,
+      "spellpower": 20,
+      "knowledge": 15
+    },
+    "secondarySkills": {
+      "pathfinding": 5,
+      "archery": 3,
+      "logistics": 7,
+      "scouting": 4,
+      "diplomacy": 2,
+      "navigation": 3,
+      "leadership": 8,
+      "wisdom": 2,
+      "mysticism": 1,
+      "luck": 3,
+      "ballistics": 5,
+      "eagleEye": 1,
+      "necromancy": 0,
+      "estates": 3,
+      "fireMagic": 1,
+      "airMagic": 1,
+      "waterMagic": 1,
+      "earthMagic": 2,
+      "scholar": 1,
+      "tactics": 6,
+      "artillery": 4,
+      "learning": 2,
+      "offence": 7,
+      "armorer": 6,
+      "intelligence": 1,
+      "sorcery": 1,
+      "resistance": 4,
+      "firstAid": 2
+    },
+    "defaultTavern": 5,
+    "tavern": {
+      "jurassica": 8
+    },
+    "animation": {
+      "battle": {
+        "male": "jurassica/sprites/heroes/wardenBattle",
+        "female": "jurassica/sprites/heroes/wardenBattle"
+      }
+    },
+    "mapObject": {
+      "templates": {
+        "normal": {
+          "animation": "jurassica/sprites/heroes/wardenMap"
+        }
+      }
+    }
+  },
+  "paleontologist": {
+    "name": "Paleontologist",
+    "faction": "jurassica",
+    "affinity": "magic",
+    "commander": "mage",
+    "primarySkills": {
+      "attack": 1,
+      "defence": 1,
+      "spellpower": 3,
+      "knowledge": 2
+    },
+    "lowLevelChance": {
+      "attack": 15,
+      "defence": 15,
+      "spellpower": 40,
+      "knowledge": 30
+    },
+    "highLevelChance": {
+      "attack": 15,
+      "defence": 15,
+      "spellpower": 35,
+      "knowledge": 35
+    },
+    "secondarySkills": {
+      "pathfinding": 3,
+      "archery": 2,
+      "logistics": 4,
+      "scouting": 5,
+      "diplomacy": 4,
+      "navigation": 3,
+      "leadership": 3,
+      "wisdom": 8,
+      "mysticism": 5,
+      "luck": 4,
+      "ballistics": 2,
+      "eagleEye": 4,
+      "necromancy": 0,
+      "estates": 4,
+      "fireMagic": 5,
+      "airMagic": 4,
+      "waterMagic": 5,
+      "earthMagic": 6,
+      "scholar": 5,
+      "tactics": 2,
+      "artillery": 1,
+      "learning": 5,
+      "offence": 2,
+      "armorer": 3,
+      "intelligence": 6,
+      "sorcery": 5,
+      "resistance": 5,
+      "firstAid": 4
+    },
+    "defaultTavern": 5,
+    "tavern": {
+      "jurassica": 8
+    },
+    "animation": {
+      "battle": {
+        "male": "jurassica/sprites/heroes/paleontologistBattle",
+        "female": "jurassica/sprites/heroes/paleontologistBattle"
+      }
+    },
+    "mapObject": {
+      "templates": {
+        "normal": {
+          "animation": "jurassica/sprites/heroes/paleontologistMap"
+        }
+      }
+    }
+  }
+}

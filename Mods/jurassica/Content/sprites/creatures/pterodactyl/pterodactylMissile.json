@@ -1,0 +1,15 @@
+{
+  "basepath": "jurassica/sprites/creatures/pterodactyl/",
+  "sequences": [
+    {
+      "group": 0,
+      "frames": [
+        "missile_00.png", "missile_01.png", "missile_02.png",
+        "missile_03.png", "missile_04.png", "missile_05.png",
+        "missile_06.png", "missile_07.png", "missile_08.png",
+        "missile_09.png", "missile_10.png", "missile_11.png",
+        "missile_12.png"
+      ]
+    }
+  ]
+}

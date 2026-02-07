@@ -1,0 +1,55 @@
+{
+	"ozimek": {
+		"name": {
+			"singular": "Ozimek",
+			"plural": "Ozimeks"
+		},
+		"level": 1,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 40
+		},
+		"fightValue": 80,
+		"aiValue": 85,
+		"growth": 14,
+		"attack": 2,
+		"defense": 2,
+		"hitPoints": 4,
+		"speed": 5,
+		"damage": {
+			"min": 1,
+			"max": 2
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": false,
+		"advMapAmount": {
+			"min": 20,
+			"max": 50
+		},
+		"upgrades": [
+			"jurassica:ozimekVolans"
+		],
+		"abilities": [],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/ozimek/ozimek.json",
+			"iconSmall": "jurassica/sprites/icons/ozimekSmall.png",
+			"iconLarge": "jurassica/sprites/icons/ozimekLarge.png",
+			"map": "jurassica/sprites/adventure/ozimekMap.json",
+			"animationTime": {
+				"walk": 0.7,
+				"idle": 1.0,
+				"attack": 0.5
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/ozimekAttack.wav",
+			"defend": "jurassica/sounds/creatures/ozimekDefend.wav",
+			"killed": "jurassica/sounds/creatures/ozimekKilled.wav",
+			"move": "jurassica/sounds/creatures/ozimekMove.wav",
+			"wince": "jurassica/sounds/creatures/ozimekWince.wav",
+			"startMoving": "jurassica/sounds/creatures/ozimekStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/ozimekEndMoving.wav"
+		}
+	}
+}

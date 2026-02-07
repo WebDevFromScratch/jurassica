@@ -1,0 +1,61 @@
+{
+	"raptor": {
+		"name": {
+			"singular": "Raptor",
+			"plural": "Raptors"
+		},
+		"level": 2,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 100
+		},
+		"fightValue": 250,
+		"aiValue": 300,
+		"growth": 9,
+		"attack": 6,
+		"defense": 4,
+		"hitPoints": 12,
+		"speed": 8,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": false,
+		"advMapAmount": {
+			"min": 12,
+			"max": 30
+		},
+		"upgrades": [
+			"jurassica:utahraptor"
+		],
+		"abilities": [
+			{
+				"type": "STRIKE_AND_RETURN",
+				"subtype": "creatureSelf",
+				"val": 0
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/raptor/raptor.json",
+			"iconSmall": "jurassica/sprites/icons/raptorSmall.png",
+			"iconLarge": "jurassica/sprites/icons/raptorLarge.png",
+			"map": "jurassica/sprites/adventure/raptorMap.json",
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 1.0,
+				"attack": 0.4
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/raptorAttack.wav",
+			"defend": "jurassica/sounds/creatures/raptorDefend.wav",
+			"killed": "jurassica/sounds/creatures/raptorKilled.wav",
+			"move": "jurassica/sounds/creatures/raptorMove.wav",
+			"wince": "jurassica/sounds/creatures/raptorWince.wav",
+			"startMoving": "jurassica/sounds/creatures/raptorStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/raptorEndMoving.wav"
+		}
+	}
+}

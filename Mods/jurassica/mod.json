@@ -1,0 +1,38 @@
+{
+  "name": "Jurassica",
+  "description": "A dinosaur-themed faction for VCMI! Features 7 levels of prehistoric creatures from the nimble Ozimek glider to the mighty T-Rex. Includes a volcanic jungle town, unique buildings like the Tar Pits and Amber Mine, and two hero classes: Wardens (might) and Paleontologists (magic).",
+  "author": "Jurassica Team",
+  "version": "0.1.0",
+  "modType": "Town",
+  "contact": "",
+  "licenseName": "CC BY-NC-SA 4.0",
+  "compatibility": {
+    "min": "1.4.0"
+  },
+
+  "factions": [
+    "config/jurassica.json"
+  ],
+  "creatures": [
+    "config/creatures/ozimek.json",
+    "config/creatures/ozimekVolans.json",
+    "config/creatures/raptor.json",
+    "config/creatures/utahraptor.json",
+    "config/creatures/triceratops.json",
+    "config/creatures/torosaurus.json",
+    "config/creatures/stegosaurus.json",
+    "config/creatures/kentrosaurus.json",
+    "config/creatures/pterodactyl.json",
+    "config/creatures/quetzalcoatlus.json",
+    "config/creatures/elasmosaurus.json",
+    "config/creatures/mosasaurus.json",
+    "config/creatures/trex.json",
+    "config/creatures/giganotosaurus.json"
+  ],
+  "heroClasses": [
+    "config/heroes/classes.json"
+  ],
+  "heroes": [
+    "config/heroes/heroes.json"
+  ]
+}

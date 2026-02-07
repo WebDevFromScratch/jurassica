@@ -1,0 +1,68 @@
+{
+	"trex": {
+		"name": {
+			"singular": "T-Rex",
+			"plural": "T-Rexes"
+		},
+		"level": 7,
+		"faction": "jurassica",
+		"cost": {
+			"gold": 3000,
+			"sulfur": 2,
+			"crystal": 2
+		},
+		"fightValue": 5500,
+		"aiValue": 7000,
+		"growth": 1,
+		"attack": 19,
+		"defense": 15,
+		"hitPoints": 180,
+		"speed": 7,
+		"damage": {
+			"min": 25,
+			"max": 45
+		},
+		"shots": 0,
+		"spellPoints": 0,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 1,
+			"max": 4
+		},
+		"upgrades": [
+			"jurassica:giganotosaurus"
+		],
+		"abilities": [
+			{
+				"type": "ENEMY_MORALE_DECREASING",
+				"subtype": "creatureSelf",
+				"val": -1
+			},
+			{
+				"type": "HATE",
+				"subtype": "creature.dragon",
+				"val": 50
+			}
+		],
+		"graphics": {
+			"animation": "jurassica/sprites/creatures/trex/trex.json",
+			"iconSmall": "jurassica/sprites/icons/trexSmall.png",
+			"iconLarge": "jurassica/sprites/icons/trexLarge.png",
+			"map": "jurassica/sprites/adventure/trexMap.json",
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 1.2,
+				"attack": 0.8
+			}
+		},
+		"sound": {
+			"attack": "jurassica/sounds/creatures/trexAttack.wav",
+			"defend": "jurassica/sounds/creatures/trexDefend.wav",
+			"killed": "jurassica/sounds/creatures/trexKilled.wav",
+			"move": "jurassica/sounds/creatures/trexMove.wav",
+			"wince": "jurassica/sounds/creatures/trexWince.wav",
+			"startMoving": "jurassica/sounds/creatures/trexStartMoving.wav",
+			"endMoving": "jurassica/sounds/creatures/trexEndMoving.wav"
+		}
+	}
+}
