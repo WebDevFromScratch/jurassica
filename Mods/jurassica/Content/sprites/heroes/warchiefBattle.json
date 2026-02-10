@@ -1,12 +1,11 @@
 {
 	"basepath": "sprites/heroes/",
 	"sequences": [
-		{ "group": 0, "frames": ["primalusSmall.png"] },
-		{ "group": 1, "frames": ["primalusSmall.png"] },
-		{ "group": 2, "frames": ["primalusSmall.png"] },
-		{ "group": 3, "frames": ["primalusSmall.png"] },
-		{ "group": 4, "frames": ["primalusSmall.png"] },
-		{ "group": 5, "frames": ["primalusSmall.png"] },
-		{ "group": 6, "frames": ["primalusSmall.png"] }
+		{
+			"group": 0,
+			"frames": [
+				"primalusSmall.png"
+			]
+		}
 	]
 }

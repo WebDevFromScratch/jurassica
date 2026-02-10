@@ -4,7 +4,73 @@
 		{
 			"group": 0,
 			"frames": [
-				"primalusSmall.png"
+				"warchiefMap_dir0_f0.png",
+				"warchiefMap_dir0_f1.png",
+				"warchiefMap_dir0_f2.png",
+				"warchiefMap_dir0_f3.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"warchiefMap_dir1_f0.png",
+				"warchiefMap_dir1_f1.png",
+				"warchiefMap_dir1_f2.png",
+				"warchiefMap_dir1_f3.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"warchiefMap_dir2_f0.png",
+				"warchiefMap_dir2_f1.png",
+				"warchiefMap_dir2_f2.png",
+				"warchiefMap_dir2_f3.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"warchiefMap_dir3_f0.png",
+				"warchiefMap_dir3_f1.png",
+				"warchiefMap_dir3_f2.png",
+				"warchiefMap_dir3_f3.png"
+			]
+		},
+		{
+			"group": 4,
+			"frames": [
+				"warchiefMap_dir4_f0.png",
+				"warchiefMap_dir4_f1.png",
+				"warchiefMap_dir4_f2.png",
+				"warchiefMap_dir4_f3.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"warchiefMap_dir5_f0.png",
+				"warchiefMap_dir5_f1.png",
+				"warchiefMap_dir5_f2.png",
+				"warchiefMap_dir5_f3.png"
+			]
+		},
+		{
+			"group": 6,
+			"frames": [
+				"warchiefMap_dir6_f0.png",
+				"warchiefMap_dir6_f1.png",
+				"warchiefMap_dir6_f2.png",
+				"warchiefMap_dir6_f3.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"warchiefMap_dir7_f0.png",
+				"warchiefMap_dir7_f1.png",
+				"warchiefMap_dir7_f2.png",
+				"warchiefMap_dir7_f3.png"
 			]
 		}
 	]

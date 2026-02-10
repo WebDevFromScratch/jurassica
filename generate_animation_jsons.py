@@ -127,6 +127,37 @@ def generate_adventure_town_animation(variant):
     }
 
 
+# Building key -> building ID mapping (must match jurassica.json building IDs)
+BUILDING_IDS = {
+    "mageGuild1": 0, "mageGuild2": 1, "mageGuild3": 2, "mageGuild4": 3,
+    "tavern": 5,
+    "fort": 7, "citadel": 8, "castle": 9,
+    "villageHall": 10, "townHall": 11, "cityHall": 12, "capitol": 13,
+    "marketplace": 14, "resourceSilo": 15, "blacksmith": 16,
+    "horde1": 18, "grail": 26,
+    "dwelling1": 30, "dwelling2": 31, "dwelling3": 32, "dwelling4": 33,
+    "dwelling5": 34, "dwelling6": 35, "dwelling7": 36,
+    "upgDwelling1": 37, "upgDwelling2": 38, "upgDwelling3": 39, "upgDwelling4": 40,
+    "upgDwelling5": 41, "upgDwelling6": 42, "upgDwelling7": 43,
+    "special1": 44, "special2": 45, "special3": 46, "special4": 47,
+}
+
+BUILDINGS = list(BUILDING_IDS.keys())
+
+
+def generate_building_animation(building_key):
+    """Generate a building animation JSON (single-frame static)."""
+    return {
+        "basepath": "sprites/towns/jurassica/buildings/",
+        "sequences": [
+            {
+                "group": 0,
+                "frames": [f"{building_key}.png"]
+            }
+        ]
+    }
+
+
 def main():
     print("Generating animation JSON descriptors...")
 
@@ -171,20 +202,65 @@ def main():
     os.makedirs(heroes_dir, exist_ok=True)
 
     for hero_type in ["sauromancer", "warchief"]:
-        for context in ["Battle", "Map"]:
-            anim = {
-                "basepath": "sprites/heroes/",
-                "sequences": [
-                    {
-                        "group": 0,
-                        "frames": [f"primalusSmall.png"]  # Reuse a hero portrait as placeholder
-                    }
-                ]
-            }
-            anim_path = os.path.join(heroes_dir, f"{hero_type}{context}.json")
-            with open(anim_path, 'w') as f:
-                json.dump(anim, f, indent='\t')
-        print(f"  Hero animation: {hero_type}")
+        # Battle animation (single-frame placeholder using portrait)
+        battle_anim = {
+            "basepath": "sprites/heroes/",
+            "sequences": [
+                {
+                    "group": 0,
+                    "frames": ["primalusSmall.png"]
+                }
+            ]
+        }
+        battle_path = os.path.join(heroes_dir, f"{hero_type}Battle.json")
+        with open(battle_path, 'w') as f:
+            json.dump(battle_anim, f, indent='\t')
+
+        # Map animation — groups 0-7 for 8 compass directions, 4 walking frames each
+        map_sequences = []
+        for direction in range(8):
+            frames = [f"{hero_type}Map_dir{direction}_f{fi}.png" for fi in range(4)]
+            map_sequences.append({
+                "group": direction,
+                "frames": frames
+            })
+        map_anim = {
+            "basepath": "sprites/heroes/",
+            "sequences": map_sequences
+        }
+        map_path = os.path.join(heroes_dir, f"{hero_type}Map.json")
+        with open(map_path, 'w') as f:
+            json.dump(map_anim, f, indent='\t')
+
+        print(f"  Hero animation: {hero_type} (battle + map with 8 directions)")
+
+    # Building animations
+    buildings_dir = os.path.join(CONTENT, "sprites", "towns", "jurassica", "buildings")
+    os.makedirs(buildings_dir, exist_ok=True)
+
+    for bkey in BUILDINGS:
+        banim = generate_building_animation(bkey)
+        bpath = os.path.join(buildings_dir, f"{bkey}.json")
+        with open(bpath, 'w') as f:
+            json.dump(banim, f, indent='\t')
+    print(f"  Buildings: {len(BUILDINGS)} animation JSONs")
+
+    # Building hall icons animation JSON
+    # Group numbers must match building IDs from jurassica.json
+    icon_sequences = []
+    for bkey in BUILDINGS:
+        icon_sequences.append({
+            "group": BUILDING_IDS[bkey],
+            "frames": [f"{bkey}_icon.png"]
+        })
+    icons_anim = {
+        "basepath": "sprites/towns/jurassica/buildings/",
+        "sequences": icon_sequences
+    }
+    icons_path = os.path.join(buildings_dir, "icons.json")
+    with open(icons_path, 'w') as f:
+        json.dump(icons_anim, f, indent='\t')
+    print("  Building icons: icons.json")
 
     print("\nDone! All animation JSONs generated.")
 

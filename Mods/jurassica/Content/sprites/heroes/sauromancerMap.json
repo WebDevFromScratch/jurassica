@@ -4,7 +4,73 @@
 		{
 			"group": 0,
 			"frames": [
-				"primalusSmall.png"
+				"sauromancerMap_dir0_f0.png",
+				"sauromancerMap_dir0_f1.png",
+				"sauromancerMap_dir0_f2.png",
+				"sauromancerMap_dir0_f3.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"sauromancerMap_dir1_f0.png",
+				"sauromancerMap_dir1_f1.png",
+				"sauromancerMap_dir1_f2.png",
+				"sauromancerMap_dir1_f3.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"sauromancerMap_dir2_f0.png",
+				"sauromancerMap_dir2_f1.png",
+				"sauromancerMap_dir2_f2.png",
+				"sauromancerMap_dir2_f3.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"sauromancerMap_dir3_f0.png",
+				"sauromancerMap_dir3_f1.png",
+				"sauromancerMap_dir3_f2.png",
+				"sauromancerMap_dir3_f3.png"
+			]
+		},
+		{
+			"group": 4,
+			"frames": [
+				"sauromancerMap_dir4_f0.png",
+				"sauromancerMap_dir4_f1.png",
+				"sauromancerMap_dir4_f2.png",
+				"sauromancerMap_dir4_f3.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"sauromancerMap_dir5_f0.png",
+				"sauromancerMap_dir5_f1.png",
+				"sauromancerMap_dir5_f2.png",
+				"sauromancerMap_dir5_f3.png"
+			]
+		},
+		{
+			"group": 6,
+			"frames": [
+				"sauromancerMap_dir6_f0.png",
+				"sauromancerMap_dir6_f1.png",
+				"sauromancerMap_dir6_f2.png",
+				"sauromancerMap_dir6_f3.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"sauromancerMap_dir7_f0.png",
+				"sauromancerMap_dir7_f1.png",
+				"sauromancerMap_dir7_f2.png",
+				"sauromancerMap_dir7_f3.png"
 			]
 		}
 	]
