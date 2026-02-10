@@ -44,12 +44,12 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/pterodactyl/pterodactyl.json",
-			"iconSmall": "jurassica/sprites/icons/pterodactylSmall.png",
-			"iconLarge": "jurassica/sprites/icons/pterodactylLarge.png",
-			"map": "jurassica/sprites/adventure/pterodactylMap.json",
+			"animation": "sprites/creatures/pterodactyl/pterodactyl.json",
+			"iconSmall": "sprites/icons/pterodactylSmall.png",
+			"iconLarge": "sprites/icons/pterodactylLarge.png",
+			"map": "sprites/creatures/pterodactyl/pterodactylMap.json",
 			"missile": {
-				"animation": "jurassica/sprites/creatures/pterodactyl/pterodactylMissile.json",
+				"animation": "sprites/creatures/pterodactyl/pterodactylMissile.json",
 				"offset": {
 					"upperX": 0,
 					"upperY": -20,
@@ -58,7 +58,21 @@
 					"lowerX": 0,
 					"lowerY": 10
 				},
-				"frameAngles": [90, 78, 67, 56, 45, 34, 23, 12, 0, -12, -23, -34, -45]
+				"frameAngles": [
+					90,
+					78,
+					67,
+					56,
+					45,
+					34,
+					23,
+					12,
+					0,
+					-12,
+					-23,
+					-34,
+					-45
+				]
 			},
 			"animationTime": {
 				"walk": 0.6,
@@ -67,14 +81,14 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/pterodactylAttack.wav",
-			"defend": "jurassica/sounds/creatures/pterodactylDefend.wav",
-			"killed": "jurassica/sounds/creatures/pterodactylKilled.wav",
-			"move": "jurassica/sounds/creatures/pterodactylMove.wav",
-			"shoot": "jurassica/sounds/creatures/pterodactylShoot.wav",
-			"wince": "jurassica/sounds/creatures/pterodactylWince.wav",
-			"startMoving": "jurassica/sounds/creatures/pterodactylStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/pterodactylEndMoving.wav"
+			"attack": "sounds/creatures/pterodactylAttack.wav",
+			"defend": "sounds/creatures/pterodactylDefend.wav",
+			"killed": "sounds/creatures/pterodactylKilled.wav",
+			"move": "sounds/creatures/pterodactylMove.wav",
+			"shoot": "sounds/creatures/pterodactylShoot.wav",
+			"wince": "sounds/creatures/pterodactylWince.wav",
+			"startMoving": "sounds/creatures/pterodactylStartMoving.wav",
+			"endMoving": "sounds/creatures/pterodactylEndMoving.wav"
 		}
 	}
 }

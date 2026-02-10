@@ -33,10 +33,10 @@
 		],
 		"abilities": [],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/triceratops/triceratops.json",
-			"iconSmall": "jurassica/sprites/icons/triceratopsSmall.png",
-			"iconLarge": "jurassica/sprites/icons/triceratopsLarge.png",
-			"map": "jurassica/sprites/adventure/triceratopsMap.json",
+			"animation": "sprites/creatures/triceratops/triceratops.json",
+			"iconSmall": "sprites/icons/triceratopsSmall.png",
+			"iconLarge": "sprites/icons/triceratopsLarge.png",
+			"map": "sprites/creatures/triceratops/triceratopsMap.json",
 			"animationTime": {
 				"walk": 0.8,
 				"idle": 1.0,
@@ -44,13 +44,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/triceratopsAttack.wav",
-			"defend": "jurassica/sounds/creatures/triceratopsDefend.wav",
-			"killed": "jurassica/sounds/creatures/triceratopsKilled.wav",
-			"move": "jurassica/sounds/creatures/triceratopsMove.wav",
-			"wince": "jurassica/sounds/creatures/triceratopsWince.wav",
-			"startMoving": "jurassica/sounds/creatures/triceratopsStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/triceratopsEndMoving.wav"
+			"attack": "sounds/creatures/triceratopsAttack.wav",
+			"defend": "sounds/creatures/triceratopsDefend.wav",
+			"killed": "sounds/creatures/triceratopsKilled.wav",
+			"move": "sounds/creatures/triceratopsMove.wav",
+			"wince": "sounds/creatures/triceratopsWince.wav",
+			"startMoving": "sounds/creatures/triceratopsStartMoving.wav",
+			"endMoving": "sounds/creatures/triceratopsEndMoving.wav"
 		}
 	}
 }

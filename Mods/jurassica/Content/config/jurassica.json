@@ -17,9 +17,15 @@
     "town": {
       "mapObject": {
         "templates": {
-          "village": { "animation": "jurassica/sprites/adventure/townJurassicaVillage" },
-          "fort": { "animation": "jurassica/sprites/adventure/townJurassicaFort" },
-          "castle": { "animation": "jurassica/sprites/adventure/townJurassicaCastle" }
+          "village": {
+            "animation": "jurassica/sprites/adventure/townJurassicaVillage"
+          },
+          "fort": {
+            "animation": "jurassica/sprites/adventure/townJurassicaFort"
+          },
+          "castle": {
+            "animation": "jurassica/sprites/adventure/townJurassicaCastle"
+          }
         }
       },
       "buildingsIcons": "jurassica/sprites/towns/jurassica/buildings/icons.json",
@@ -27,24 +33,62 @@
       "townBackground": "jurassica/sprites/towns/jurassica/townBackground.png",
       "guildWindow": "jurassica/sprites/towns/jurassica/guildWindow.png",
       "guildBackground": "jurassica/sprites/towns/jurassica/guildBackground.png",
-      "musicTheme": ["jurassica/music/jurassicaTown"],
+      "musicTheme": [
+        "jurassica/music/jurassicaTown"
+      ],
       "names": [
-        "Pangaea", "Gondwana", "Laurasia", "Mesozoica",
-        "Fossilheim", "Cretacia", "Triassica", "Volcania",
-        "Amber Falls", "Fern Valley", "Tar Hollow", "Ember Ridge",
-        "Bonecrest", "Stonetooth", "Thunder Peak", "Ashenveil"
+        "Pangaea",
+        "Gondwana",
+        "Laurasia",
+        "Mesozoica",
+        "Fossilheim",
+        "Cretacia",
+        "Triassica",
+        "Volcania",
+        "Amber Falls",
+        "Fern Valley",
+        "Tar Hollow",
+        "Ember Ridge",
+        "Bonecrest",
+        "Stonetooth",
+        "Thunder Peak",
+        "Ashenveil"
       ],
       "primaryResource": "sulfur",
       "mageGuild": 4,
-      "horde": [1, -1],
+      "horde": [
+        1,
+        -1
+      ],
       "creatures": [
-        ["jurassica:ozimek", "jurassica:ozimekVolans"],
-        ["jurassica:raptor", "jurassica:utahraptor"],
-        ["jurassica:triceratops", "jurassica:torosaurus"],
-        ["jurassica:stegosaurus", "jurassica:kentrosaurus"],
-        ["jurassica:pterodactyl", "jurassica:quetzalcoatlus"],
-        ["jurassica:elasmosaurus", "jurassica:mosasaurus"],
-        ["jurassica:trex", "jurassica:giganotosaurus"]
+        [
+          "jurassica:ozimek",
+          "jurassica:ozimekVolans"
+        ],
+        [
+          "jurassica:raptor",
+          "jurassica:utahraptor"
+        ],
+        [
+          "jurassica:triceratops",
+          "jurassica:torosaurus"
+        ],
+        [
+          "jurassica:stegosaurus",
+          "jurassica:kentrosaurus"
+        ],
+        [
+          "jurassica:pterodactyl",
+          "jurassica:quetzalcoatlus"
+        ],
+        [
+          "jurassica:elasmosaurus",
+          "jurassica:mosasaurus"
+        ],
+        [
+          "jurassica:trex",
+          "jurassica:giganotosaurus"
+        ]
       ],
       "defaultTavern": 5,
       "tavern": {
@@ -54,21 +98,39 @@
       "guildSpells": {},
       "hallSlots": [
         [
-          ["marketplace"],
-          ["resourceSilo"],
-          ["special1"]
+          [
+            "marketplace"
+          ],
+          [
+            "resourceSilo"
+          ],
+          [
+            "special1"
+          ]
         ],
         [
-          ["blacksmith"],
-          ["special2"],
-          ["special3"]
+          [
+            "blacksmith"
+          ],
+          [
+            "special2"
+          ],
+          [
+            "special3"
+          ]
         ],
         [
-          ["horde1"],
-          ["special4"]
+          [
+            "horde1"
+          ],
+          [
+            "special4"
+          ]
         ],
         [
-          ["grail"]
+          [
+            "grail"
+          ]
         ]
       ],
       "structures": {},
@@ -78,28 +140,100 @@
         "towerIconLarge": "jurassica/sprites/icons/towerLarge.png",
         "imagePrefix": "jurassica/sprites/towns/jurassica/siege/SGJUR",
         "towers": {
-          "top":    { "tower": {"x": 441, "y": 68},  "battlement": {"x": 443, "y": 53},  "creature": {"x": 441, "y": 130} },
-          "keep":   { "tower": {"x": 555, "y": 120}, "battlement": {"x": 557, "y": 105}, "creature": {"x": 555, "y": 180} },
-          "bottom": { "tower": {"x": 441, "y": 310}, "battlement": {"x": 443, "y": 295}, "creature": {"x": 441, "y": 370} }
+          "top": {
+            "tower": {
+              "x": 441,
+              "y": 68
+            },
+            "battlement": {
+              "x": 443,
+              "y": 53
+            },
+            "creature": {
+              "x": 441,
+              "y": 130
+            }
+          },
+          "keep": {
+            "tower": {
+              "x": 555,
+              "y": 120
+            },
+            "battlement": {
+              "x": 557,
+              "y": 105
+            },
+            "creature": {
+              "x": 555,
+              "y": 180
+            }
+          },
+          "bottom": {
+            "tower": {
+              "x": 441,
+              "y": 310
+            },
+            "battlement": {
+              "x": 443,
+              "y": 295
+            },
+            "creature": {
+              "x": 441,
+              "y": 370
+            }
+          }
         },
         "gate": {
-          "gate": {"x": 487, "y": 210},
-          "arch": {"x": 480, "y": 130}
+          "gate": {
+            "x": 487,
+            "y": 210
+          },
+          "arch": {
+            "x": 480,
+            "y": 130
+          }
         },
         "walls": {
-          "upper":     {"x": 415, "y": 105},
-          "upperMid":  {"x": 415, "y": 170},
-          "bottomMid": {"x": 415, "y": 250},
-          "bottom":    {"x": 415, "y": 315}
+          "upper": {
+            "x": 415,
+            "y": 105
+          },
+          "upperMid": {
+            "x": 415,
+            "y": 170
+          },
+          "bottomMid": {
+            "x": 415,
+            "y": 250
+          },
+          "bottom": {
+            "x": 415,
+            "y": 315
+          }
         },
         "moat": {
-          "bank": {"x": 380, "y": 130},
-          "moat": {"x": 380, "y": 180}
+          "bank": {
+            "x": 380,
+            "y": 130
+          },
+          "moat": {
+            "x": 380,
+            "y": 180
+          }
         },
         "static": {
-          "bottom":     {"x": 0, "y": 330},
-          "top":        {"x": 0, "y": 0},
-          "background": {"x": 0, "y": 0}
+          "bottom": {
+            "x": 0,
+            "y": 330
+          },
+          "top": {
+            "x": 0,
+            "y": 0
+          },
+          "background": {
+            "x": 0,
+            "y": 0
+          }
         }
       },
       "buildings": {
@@ -108,71 +242,125 @@
           "name": "Circle of Elders I",
           "description": "Allows your heroes to learn 1st level spells. Ancient shamans gather here to channel primal magic.",
           "mode": "normal",
-          "requires": [],
-          "cost": { "gold": 2000, "ore": 5, "wood": 5 }
+          "cost": {
+            "gold": 2000,
+            "ore": 5,
+            "wood": 5
+          }
         },
         "mageGuild2": {
           "id": 1,
           "name": "Circle of Elders II",
           "description": "Allows your heroes to learn 2nd level spells.",
           "mode": "normal",
-          "requires": ["mageGuild1"],
-          "cost": { "gold": 1000, "ore": 5, "wood": 5, "mercury": 4 }
+          "requires": [
+            "allOf",
+            [
+              "mageGuild1"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "ore": 5,
+            "wood": 5,
+            "mercury": 4
+          }
         },
         "mageGuild3": {
           "id": 2,
           "name": "Circle of Elders III",
           "description": "Allows your heroes to learn 3rd level spells.",
           "mode": "normal",
-          "requires": ["mageGuild2"],
-          "cost": { "gold": 1000, "ore": 5, "wood": 5, "mercury": 6 }
+          "requires": [
+            "allOf",
+            [
+              "mageGuild2"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "ore": 5,
+            "wood": 5,
+            "mercury": 6
+          }
         },
         "mageGuild4": {
           "id": 3,
           "name": "Circle of Elders IV",
           "description": "Allows your heroes to learn 4th level spells.",
           "mode": "normal",
-          "requires": ["mageGuild3"],
-          "cost": { "gold": 1000, "ore": 5, "wood": 5, "mercury": 8 }
+          "requires": [
+            "allOf",
+            [
+              "mageGuild3"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "ore": 5,
+            "wood": 5,
+            "mercury": 8
+          }
         },
         "tavern": {
           "id": 5,
           "name": "Watering Hole",
           "description": "A gathering place where heroes come to be recruited.",
           "mode": "normal",
-          "requires": [],
-          "cost": { "gold": 500, "wood": 5 }
+          "cost": {
+            "gold": 500,
+            "wood": 5
+          }
         },
         "fort": {
           "id": 7,
           "name": "Fort",
           "description": "Provides basic town defenses and allows creature recruitment.",
           "mode": "normal",
-          "requires": [],
-          "cost": { "gold": 5000, "ore": 5, "wood": 5 }
+          "cost": {
+            "gold": 5000,
+            "ore": 5,
+            "wood": 5
+          }
         },
         "citadel": {
           "id": 8,
           "name": "Citadel",
           "description": "Increases creature growth by 50%.",
           "mode": "normal",
-          "requires": ["fort"],
-          "cost": { "gold": 2500, "ore": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ]
+          ],
+          "cost": {
+            "gold": 2500,
+            "ore": 5
+          }
         },
         "castle": {
           "id": 9,
           "name": "Castle",
           "description": "Full fortifications, doubles creature growth.",
           "mode": "normal",
-          "requires": ["citadel"],
-          "cost": { "gold": 5000, "ore": 10, "wood": 10 }
+          "requires": [
+            "allOf",
+            [
+              "citadel"
+            ]
+          ],
+          "cost": {
+            "gold": 5000,
+            "ore": 10,
+            "wood": 10
+          }
         },
         "villageHall": {
           "id": 10,
           "name": "Village Hall",
           "description": "Produces 500 gold per day.",
           "mode": "auto",
-          "requires": [],
           "cost": {}
         },
         "townHall": {
@@ -180,64 +368,122 @@
           "name": "Town Hall",
           "description": "Produces 1000 gold per day.",
           "mode": "normal",
-          "requires": ["tavern"],
-          "cost": { "gold": 2500 }
+          "requires": [
+            "allOf",
+            [
+              "tavern"
+            ]
+          ],
+          "cost": {
+            "gold": 2500
+          }
         },
         "cityHall": {
           "id": 12,
           "name": "City Hall",
           "description": "Produces 2000 gold per day.",
           "mode": "normal",
-          "requires": ["townHall", "mageGuild1", "marketplace", "blacksmith"],
-          "cost": { "gold": 5000, "ore": 2, "wood": 2 }
+          "requires": [
+            "allOf",
+            [
+              "townHall"
+            ],
+            [
+              "mageGuild1"
+            ],
+            [
+              "marketplace"
+            ],
+            [
+              "blacksmith"
+            ]
+          ],
+          "cost": {
+            "gold": 5000,
+            "ore": 2,
+            "wood": 2
+          }
         },
         "capitol": {
           "id": 13,
           "name": "Capitol",
           "description": "Produces 4000 gold per day. Only one per player.",
           "mode": "normal",
-          "requires": ["cityHall", "castle"],
-          "cost": { "gold": 10000, "ore": 5, "wood": 5 }
+          "requires": [
+            "allOf",
+            [
+              "cityHall"
+            ],
+            [
+              "castle"
+            ]
+          ],
+          "cost": {
+            "gold": 10000,
+            "ore": 5,
+            "wood": 5
+          }
         },
         "marketplace": {
           "id": 14,
           "name": "Trading Grounds",
           "description": "Allows resource trading.",
           "mode": "normal",
-          "requires": [],
-          "cost": { "gold": 500, "wood": 5 }
+          "cost": {
+            "gold": 500,
+            "wood": 5
+          }
         },
         "resourceSilo": {
           "id": 15,
           "name": "Sulfur Vent",
           "description": "Produces 1 sulfur per day.",
           "mode": "normal",
-          "requires": ["marketplace"],
-          "cost": { "gold": 5000, "ore": 5 },
-          "produce": { "sulfur": 1 }
+          "requires": [
+            "allOf",
+            [
+              "marketplace"
+            ]
+          ],
+          "cost": {
+            "gold": 5000,
+            "ore": 5
+          },
+          "produce": {
+            "sulfur": 1
+          }
         },
         "blacksmith": {
           "id": 16,
           "name": "Fossil Forge",
           "description": "Allows purchase of war machines.",
           "mode": "normal",
-          "requires": [],
-          "cost": { "gold": 1000, "wood": 5 }
+          "cost": {
+            "gold": 1000,
+            "wood": 5
+          }
         },
         "horde1": {
           "id": 18,
           "name": "Breeding Grounds",
           "description": "Increases raptor growth by 2 per week.",
           "mode": "normal",
-          "requires": ["dwelling2"],
-          "cost": { "gold": 1000, "wood": 5 }
+          "requires": [
+            "allOf",
+            [
+              "dwelling2"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "wood": 5
+          }
         },
         "grail": {
           "id": 26,
           "name": "Heart of Pangaea",
           "description": "Produces 5000 gold per day. All creatures gain +2 attack and +2 defense.",
           "mode": "grail",
-          "requires": [],
           "cost": {}
         },
         "dwelling1": {
@@ -245,64 +491,153 @@
           "name": "Glider Nest",
           "description": "Allows recruitment of Ozimeks.",
           "mode": "normal",
-          "requires": ["fort"],
-          "cost": { "gold": 400, "wood": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ]
+          ],
+          "cost": {
+            "gold": 400,
+            "wood": 5
+          }
         },
         "dwelling2": {
           "id": 31,
           "name": "Raptor Den",
           "description": "Allows recruitment of Raptors.",
           "mode": "normal",
-          "requires": ["fort"],
-          "cost": { "gold": 1000, "wood": 5, "ore": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "wood": 5,
+            "ore": 5
+          }
         },
         "dwelling3": {
           "id": 32,
           "name": "Ceratopsian Pen",
           "description": "Allows recruitment of Triceratops.",
           "mode": "normal",
-          "requires": ["fort", "dwelling1"],
-          "cost": { "gold": 2000, "wood": 5, "ore": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ],
+            [
+              "dwelling1"
+            ]
+          ],
+          "cost": {
+            "gold": 2000,
+            "wood": 5,
+            "ore": 5
+          }
         },
         "dwelling4": {
           "id": 33,
           "name": "Plated Enclosure",
           "description": "Allows recruitment of Stegosaurus.",
           "mode": "normal",
-          "requires": ["fort", "dwelling2"],
-          "cost": { "gold": 3000, "ore": 5, "crystal": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ],
+            [
+              "dwelling2"
+            ]
+          ],
+          "cost": {
+            "gold": 3000,
+            "ore": 5,
+            "crystal": 5
+          }
         },
         "dwelling5": {
           "id": 34,
           "name": "Pterosaur Roost",
           "description": "Allows recruitment of Pterodactyls.",
           "mode": "normal",
-          "requires": ["fort", "dwelling3"],
-          "cost": { "gold": 4000, "wood": 5, "ore": 5, "mercury": 3 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ],
+            [
+              "dwelling3"
+            ]
+          ],
+          "cost": {
+            "gold": 4000,
+            "wood": 5,
+            "ore": 5,
+            "mercury": 3
+          }
         },
         "dwelling6": {
           "id": 35,
           "name": "Tidal Grotto",
           "description": "Allows recruitment of Elasmosaurus.",
           "mode": "normal",
-          "requires": ["fort", "dwelling4"],
-          "cost": { "gold": 8000, "ore": 5, "wood": 5, "sulfur": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ],
+            [
+              "dwelling4"
+            ]
+          ],
+          "cost": {
+            "gold": 8000,
+            "ore": 5,
+            "wood": 5,
+            "sulfur": 5
+          }
         },
         "dwelling7": {
           "id": 36,
           "name": "Primeval Throne",
           "description": "Allows recruitment of T-Rex.",
           "mode": "normal",
-          "requires": ["fort", "dwelling5"],
-          "cost": { "gold": 20000, "ore": 10, "wood": 10, "sulfur": 5, "crystal": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ],
+            [
+              "dwelling5"
+            ]
+          ],
+          "cost": {
+            "gold": 20000,
+            "ore": 10,
+            "wood": 10,
+            "sulfur": 5,
+            "crystal": 5
+          }
         },
         "upgDwelling1": {
           "id": 37,
           "name": "Volans Aerie",
           "description": "Allows recruitment of Ozimek Volans.",
           "mode": "normal",
-          "requires": ["dwelling1"],
-          "cost": { "gold": 1000, "wood": 5 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling1"
+            ]
+          ],
+          "cost": {
+            "gold": 1000,
+            "wood": 5
+          },
           "upgrades": "dwelling1"
         },
         "upgDwelling2": {
@@ -310,8 +645,16 @@
           "name": "Predator Lair",
           "description": "Allows recruitment of Utahraptors.",
           "mode": "normal",
-          "requires": ["dwelling2"],
-          "cost": { "gold": 1500, "ore": 5 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling2"
+            ]
+          ],
+          "cost": {
+            "gold": 1500,
+            "ore": 5
+          },
           "upgrades": "dwelling2"
         },
         "upgDwelling3": {
@@ -319,8 +662,16 @@
           "name": "Armored Stockade",
           "description": "Allows recruitment of Torosaurus.",
           "mode": "normal",
-          "requires": ["dwelling3"],
-          "cost": { "gold": 2000, "ore": 5 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling3"
+            ]
+          ],
+          "cost": {
+            "gold": 2000,
+            "ore": 5
+          },
           "upgrades": "dwelling3"
         },
         "upgDwelling4": {
@@ -328,8 +679,17 @@
           "name": "Spike Yard",
           "description": "Allows recruitment of Kentrosaurus.",
           "mode": "normal",
-          "requires": ["dwelling4"],
-          "cost": { "gold": 3000, "ore": 5, "crystal": 3 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling4"
+            ]
+          ],
+          "cost": {
+            "gold": 3000,
+            "ore": 5,
+            "crystal": 3
+          },
           "upgrades": "dwelling4"
         },
         "upgDwelling5": {
@@ -337,8 +697,17 @@
           "name": "Sky Citadel",
           "description": "Allows recruitment of Quetzalcoatlus.",
           "mode": "normal",
-          "requires": ["dwelling5"],
-          "cost": { "gold": 3000, "ore": 5, "mercury": 3 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling5"
+            ]
+          ],
+          "cost": {
+            "gold": 3000,
+            "ore": 5,
+            "mercury": 3
+          },
           "upgrades": "dwelling5"
         },
         "upgDwelling6": {
@@ -346,8 +715,17 @@
           "name": "Abyssal Pool",
           "description": "Allows recruitment of Mosasaurus.",
           "mode": "normal",
-          "requires": ["dwelling6"],
-          "cost": { "gold": 4000, "ore": 5, "sulfur": 5 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling6"
+            ]
+          ],
+          "cost": {
+            "gold": 4000,
+            "ore": 5,
+            "sulfur": 5
+          },
           "upgrades": "dwelling6"
         },
         "upgDwelling7": {
@@ -355,8 +733,18 @@
           "name": "Extinction Arena",
           "description": "Allows recruitment of Giganotosaurus.",
           "mode": "normal",
-          "requires": ["dwelling7"],
-          "cost": { "gold": 10000, "ore": 5, "sulfur": 5, "crystal": 5 },
+          "requires": [
+            "allOf",
+            [
+              "dwelling7"
+            ]
+          ],
+          "cost": {
+            "gold": 10000,
+            "ore": 5,
+            "sulfur": 5,
+            "crystal": 5
+          },
           "upgrades": "dwelling7"
         },
         "special1": {
@@ -364,33 +752,74 @@
           "name": "Tar Pits",
           "description": "All Jurassica creatures gain +1 defense during siege battles.",
           "mode": "normal",
-          "requires": ["fort"],
-          "cost": { "gold": 2000, "ore": 5, "wood": 5 }
+          "requires": [
+            "allOf",
+            [
+              "fort"
+            ]
+          ],
+          "cost": {
+            "gold": 2000,
+            "ore": 5,
+            "wood": 5
+          }
         },
         "special2": {
           "id": 45,
           "name": "Amber Mine",
           "description": "Produces 1 crystal per day.",
           "mode": "normal",
-          "requires": ["marketplace"],
-          "cost": { "gold": 3000, "ore": 5, "crystal": 5 },
-          "produce": { "crystal": 1 }
+          "requires": [
+            "allOf",
+            [
+              "marketplace"
+            ]
+          ],
+          "cost": {
+            "gold": 3000,
+            "ore": 5,
+            "crystal": 5
+          },
+          "produce": {
+            "crystal": 1
+          }
         },
         "special3": {
           "id": 46,
           "name": "Fossil Museum",
           "description": "All visiting heroes gain 1000 experience points.",
           "mode": "normal",
-          "requires": ["mageGuild1", "tavern"],
-          "cost": { "gold": 5000, "ore": 5, "wood": 5, "gems": 5 }
+          "requires": [
+            "allOf",
+            [
+              "mageGuild1"
+            ],
+            [
+              "tavern"
+            ]
+          ],
+          "cost": {
+            "gold": 5000,
+            "ore": 5,
+            "wood": 5,
+            "gems": 5
+          }
         },
         "special4": {
           "id": 47,
           "name": "Primordial Spring",
           "description": "Visiting heroes gain +2 spell power while in town.",
           "mode": "normal",
-          "requires": ["mageGuild2"],
-          "cost": { "gold": 4000, "mercury": 10 }
+          "requires": [
+            "allOf",
+            [
+              "mageGuild2"
+            ]
+          ],
+          "cost": {
+            "gold": 4000,
+            "mercury": 10
+          }
         }
       }
     }

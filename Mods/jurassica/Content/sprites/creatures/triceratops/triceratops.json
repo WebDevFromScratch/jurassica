@@ -1,132 +1,118 @@
 {
-  "basepath": "jurassica/sprites/creatures/triceratops/",
-  "sequences": [
-    {
-      "group": 0,
-      "frames": [
-        "move_00.png",
-        "move_01.png",
-        "move_02.png",
-        "move_03.png",
-        "move_04.png",
-        "move_05.png"
-      ]
-    },
-    {
-      "group": 1,
-      "frames": [
-        "idle_00.png",
-        "idle_01.png",
-        "idle_02.png",
-        "idle_03.png"
-      ]
-    },
-    {
-      "group": 2,
-      "frames": [
-        "idle_00.png",
-        "idle_01.png",
-        "idle_02.png",
-        "idle_03.png"
-      ]
-    },
-    {
-      "group": 3,
-      "frames": [
-        "hit_00.png",
-        "hit_01.png",
-        "hit_02.png"
-      ]
-    },
-    {
-      "group": 4,
-      "frames": [
-        "defend_00.png",
-        "defend_01.png"
-      ]
-    },
-    {
-      "group": 5,
-      "frames": [
-        "death_00.png",
-        "death_01.png",
-        "death_02.png",
-        "death_03.png",
-        "death_04.png",
-        "death_05.png"
-      ]
-    },
-    {
-      "group": 6,
-      "frames": [
-        "death_00.png",
-        "death_01.png",
-        "death_02.png",
-        "death_03.png",
-        "death_04.png",
-        "death_05.png"
-      ]
-    },
-    {
-      "group": 7,
-      "frames": [
-        "turnLeft_00.png",
-        "turnLeft_01.png"
-      ]
-    },
-    {
-      "group": 8,
-      "frames": [
-        "turnRight_00.png",
-        "turnRight_01.png"
-      ]
-    },
-    {
-      "group": 11,
-      "frames": [
-        "attack_00.png",
-        "attack_01.png",
-        "attack_02.png",
-        "attack_03.png",
-        "attack_04.png",
-        "attack_05.png"
-      ]
-    },
-    {
-      "group": 12,
-      "frames": [
-        "attack_00.png",
-        "attack_01.png",
-        "attack_02.png",
-        "attack_03.png",
-        "attack_04.png",
-        "attack_05.png"
-      ]
-    },
-    {
-      "group": 13,
-      "frames": [
-        "attack_00.png",
-        "attack_01.png",
-        "attack_02.png",
-        "attack_03.png",
-        "attack_04.png",
-        "attack_05.png"
-      ]
-    },
-    {
-      "group": 20,
-      "frames": [
-        "move_00.png",
-        "move_01.png"
-      ]
-    },
-    {
-      "group": 21,
-      "frames": [
-        "move_04.png",
-        "move_05.png"
-      ]
-    }
-  ]
+	"basepath": "sprites/creatures/triceratops/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"move_00.png",
+				"move_01.png",
+				"move_02.png",
+				"move_03.png"
+			],
+			"generateShadow": 1,
+			"generateOverlay": 1
+		},
+		{
+			"group": 1,
+			"frames": [
+				"idle_00.png",
+				"idle_01.png",
+				"idle_02.png"
+			],
+			"generateShadow": 1,
+			"generateOverlay": 1
+		},
+		{
+			"group": 2,
+			"frames": [
+				"hit_00.png",
+				"hit_01.png",
+				"hit_02.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"defend_00.png",
+				"defend_01.png"
+			]
+		},
+		{
+			"group": 4,
+			"frames": [
+				"death_00.png",
+				"death_01.png",
+				"death_02.png",
+				"death_03.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"death_00.png",
+				"death_01.png",
+				"death_02.png",
+				"death_03.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"idle_00.png"
+			]
+		},
+		{
+			"group": 8,
+			"frames": [
+				"idle_00.png"
+			]
+		},
+		{
+			"group": 11,
+			"frames": [
+				"atkUp_00.png",
+				"atkUp_01.png",
+				"atkUp_02.png",
+				"atkUp_03.png"
+			],
+			"generateShadow": 1,
+			"generateOverlay": 1
+		},
+		{
+			"group": 12,
+			"frames": [
+				"atkFwd_00.png",
+				"atkFwd_01.png",
+				"atkFwd_02.png",
+				"atkFwd_03.png"
+			],
+			"generateShadow": 1,
+			"generateOverlay": 1
+		},
+		{
+			"group": 13,
+			"frames": [
+				"atkDwn_00.png",
+				"atkDwn_01.png",
+				"atkDwn_02.png",
+				"atkDwn_03.png"
+			],
+			"generateShadow": 1,
+			"generateOverlay": 1
+		},
+		{
+			"group": 20,
+			"frames": [
+				"startMove_00.png",
+				"startMove_01.png"
+			]
+		},
+		{
+			"group": 21,
+			"frames": [
+				"endMove_00.png",
+				"endMove_01.png"
+			]
+		}
+	]
 }

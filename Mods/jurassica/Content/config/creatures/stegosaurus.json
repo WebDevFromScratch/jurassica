@@ -39,10 +39,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/stegosaurus/stegosaurus.json",
-			"iconSmall": "jurassica/sprites/icons/stegosaurusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/stegosaurusLarge.png",
-			"map": "jurassica/sprites/adventure/stegosaurusMap.json",
+			"animation": "sprites/creatures/stegosaurus/stegosaurus.json",
+			"iconSmall": "sprites/icons/stegosaurusSmall.png",
+			"iconLarge": "sprites/icons/stegosaurusLarge.png",
+			"map": "sprites/creatures/stegosaurus/stegosaurusMap.json",
 			"animationTime": {
 				"walk": 0.9,
 				"idle": 1.0,
@@ -50,13 +50,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/stegosaurusAttack.wav",
-			"defend": "jurassica/sounds/creatures/stegosaurusDefend.wav",
-			"killed": "jurassica/sounds/creatures/stegosaurusKilled.wav",
-			"move": "jurassica/sounds/creatures/stegosaurusMove.wav",
-			"wince": "jurassica/sounds/creatures/stegosaurusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/stegosaurusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/stegosaurusEndMoving.wav"
+			"attack": "sounds/creatures/stegosaurusAttack.wav",
+			"defend": "sounds/creatures/stegosaurusDefend.wav",
+			"killed": "sounds/creatures/stegosaurusKilled.wav",
+			"move": "sounds/creatures/stegosaurusMove.wav",
+			"wince": "sounds/creatures/stegosaurusWince.wav",
+			"startMoving": "sounds/creatures/stegosaurusStartMoving.wav",
+			"endMoving": "sounds/creatures/stegosaurusEndMoving.wav"
 		}
 	}
 }

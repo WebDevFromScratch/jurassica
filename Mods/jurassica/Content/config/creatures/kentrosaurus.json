@@ -42,10 +42,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/kentrosaurus/kentrosaurus.json",
-			"iconSmall": "jurassica/sprites/icons/kentrosaurusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/kentrosaurusLarge.png",
-			"map": "jurassica/sprites/adventure/kentrosaurusMap.json",
+			"animation": "sprites/creatures/kentrosaurus/kentrosaurus.json",
+			"iconSmall": "sprites/icons/kentrosaurusSmall.png",
+			"iconLarge": "sprites/icons/kentrosaurusLarge.png",
+			"map": "sprites/creatures/kentrosaurus/kentrosaurusMap.json",
 			"animationTime": {
 				"walk": 0.9,
 				"idle": 1.0,
@@ -53,13 +53,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/kentrosaurusAttack.wav",
-			"defend": "jurassica/sounds/creatures/kentrosaurusDefend.wav",
-			"killed": "jurassica/sounds/creatures/kentrosaurusKilled.wav",
-			"move": "jurassica/sounds/creatures/kentrosaurusMove.wav",
-			"wince": "jurassica/sounds/creatures/kentrosaurusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/kentrosaurusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/kentrosaurusEndMoving.wav"
+			"attack": "sounds/creatures/kentrosaurusAttack.wav",
+			"defend": "sounds/creatures/kentrosaurusDefend.wav",
+			"killed": "sounds/creatures/kentrosaurusKilled.wav",
+			"move": "sounds/creatures/kentrosaurusMove.wav",
+			"wince": "sounds/creatures/kentrosaurusWince.wav",
+			"startMoving": "sounds/creatures/kentrosaurusStartMoving.wav",
+			"endMoving": "sounds/creatures/kentrosaurusEndMoving.wav"
 		}
 	}
 }

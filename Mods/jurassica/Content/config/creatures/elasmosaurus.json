@@ -39,10 +39,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/elasmosaurus/elasmosaurus.json",
-			"iconSmall": "jurassica/sprites/icons/elasmosaurusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/elasmosaurusLarge.png",
-			"map": "jurassica/sprites/adventure/elasmosaurusMap.json",
+			"animation": "sprites/creatures/elasmosaurus/elasmosaurus.json",
+			"iconSmall": "sprites/icons/elasmosaurusSmall.png",
+			"iconLarge": "sprites/icons/elasmosaurusLarge.png",
+			"map": "sprites/creatures/elasmosaurus/elasmosaurusMap.json",
 			"animationTime": {
 				"walk": 1.0,
 				"idle": 1.2,
@@ -50,13 +50,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/elasmosaurusAttack.wav",
-			"defend": "jurassica/sounds/creatures/elasmosaurusDefend.wav",
-			"killed": "jurassica/sounds/creatures/elasmosaurusKilled.wav",
-			"move": "jurassica/sounds/creatures/elasmosaurusMove.wav",
-			"wince": "jurassica/sounds/creatures/elasmosaurusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/elasmosaurusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/elasmosaurusEndMoving.wav"
+			"attack": "sounds/creatures/elasmosaurusAttack.wav",
+			"defend": "sounds/creatures/elasmosaurusDefend.wav",
+			"killed": "sounds/creatures/elasmosaurusKilled.wav",
+			"move": "sounds/creatures/elasmosaurusMove.wav",
+			"wince": "sounds/creatures/elasmosaurusWince.wav",
+			"startMoving": "sounds/creatures/elasmosaurusStartMoving.wav",
+			"endMoving": "sounds/creatures/elasmosaurusEndMoving.wav"
 		}
 	}
 }

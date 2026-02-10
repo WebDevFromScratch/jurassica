@@ -1,0 +1,11 @@
+{
+	"basepath": "sprites/creatures/ozimekVolans/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"map_00.png"
+			]
+		}
+	]
+}

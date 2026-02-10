@@ -1,15 +1,83 @@
 {
-  "basepath": "jurassica/sprites/creatures/pterodactyl/",
-  "sequences": [
-    {
-      "group": 0,
-      "frames": [
-        "missile_00.png", "missile_01.png", "missile_02.png",
-        "missile_03.png", "missile_04.png", "missile_05.png",
-        "missile_06.png", "missile_07.png", "missile_08.png",
-        "missile_09.png", "missile_10.png", "missile_11.png",
-        "missile_12.png"
-      ]
-    }
-  ]
+	"basepath": "sprites/creatures/pterodactyl/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"missile_00.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"missile_01.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"missile_02.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"missile_03.png"
+			]
+		},
+		{
+			"group": 4,
+			"frames": [
+				"missile_04.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"missile_05.png"
+			]
+		},
+		{
+			"group": 6,
+			"frames": [
+				"missile_06.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"missile_07.png"
+			]
+		},
+		{
+			"group": 8,
+			"frames": [
+				"missile_08.png"
+			]
+		},
+		{
+			"group": 9,
+			"frames": [
+				"missile_09.png"
+			]
+		},
+		{
+			"group": 10,
+			"frames": [
+				"missile_10.png"
+			]
+		},
+		{
+			"group": 11,
+			"frames": [
+				"missile_11.png"
+			]
+		},
+		{
+			"group": 12,
+			"frames": [
+				"missile_12.png"
+			]
+		}
+	]
 }

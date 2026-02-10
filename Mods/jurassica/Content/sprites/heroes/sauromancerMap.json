@@ -1,0 +1,11 @@
+{
+	"basepath": "sprites/heroes/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"primalusSmall.png"
+			]
+		}
+	]
+}

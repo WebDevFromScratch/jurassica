@@ -35,10 +35,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/ozimekVolans/ozimekVolans.json",
-			"iconSmall": "jurassica/sprites/icons/ozimekVolansSmall.png",
-			"iconLarge": "jurassica/sprites/icons/ozimekVolansLarge.png",
-			"map": "jurassica/sprites/adventure/ozimekVolansMap.json",
+			"animation": "sprites/creatures/ozimekVolans/ozimekVolans.json",
+			"iconSmall": "sprites/icons/ozimekVolansSmall.png",
+			"iconLarge": "sprites/icons/ozimekVolansLarge.png",
+			"map": "sprites/creatures/ozimekVolans/ozimekVolansMap.json",
 			"animationTime": {
 				"walk": 0.6,
 				"idle": 1.0,
@@ -46,13 +46,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/ozimekVolansAttack.wav",
-			"defend": "jurassica/sounds/creatures/ozimekVolansDefend.wav",
-			"killed": "jurassica/sounds/creatures/ozimekVolansKilled.wav",
-			"move": "jurassica/sounds/creatures/ozimekVolansMove.wav",
-			"wince": "jurassica/sounds/creatures/ozimekVolansWince.wav",
-			"startMoving": "jurassica/sounds/creatures/ozimekVolansStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/ozimekVolansEndMoving.wav"
+			"attack": "sounds/creatures/ozimekVolansAttack.wav",
+			"defend": "sounds/creatures/ozimekVolansDefend.wav",
+			"killed": "sounds/creatures/ozimekVolansKilled.wav",
+			"move": "sounds/creatures/ozimekVolansMove.wav",
+			"wince": "sounds/creatures/ozimekVolansWince.wav",
+			"startMoving": "sounds/creatures/ozimekVolansStartMoving.wav",
+			"endMoving": "sounds/creatures/ozimekVolansEndMoving.wav"
 		}
 	}
 }

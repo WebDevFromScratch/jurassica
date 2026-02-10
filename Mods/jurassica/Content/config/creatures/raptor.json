@@ -38,10 +38,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/raptor/raptor.json",
-			"iconSmall": "jurassica/sprites/icons/raptorSmall.png",
-			"iconLarge": "jurassica/sprites/icons/raptorLarge.png",
-			"map": "jurassica/sprites/adventure/raptorMap.json",
+			"animation": "sprites/creatures/raptor/raptor.json",
+			"iconSmall": "sprites/icons/raptorSmall.png",
+			"iconLarge": "sprites/icons/raptorLarge.png",
+			"map": "sprites/creatures/raptor/raptorMap.json",
 			"animationTime": {
 				"walk": 0.5,
 				"idle": 1.0,
@@ -49,13 +49,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/raptorAttack.wav",
-			"defend": "jurassica/sounds/creatures/raptorDefend.wav",
-			"killed": "jurassica/sounds/creatures/raptorKilled.wav",
-			"move": "jurassica/sounds/creatures/raptorMove.wav",
-			"wince": "jurassica/sounds/creatures/raptorWince.wav",
-			"startMoving": "jurassica/sounds/creatures/raptorStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/raptorEndMoving.wav"
+			"attack": "sounds/creatures/raptorAttack.wav",
+			"defend": "sounds/creatures/raptorDefend.wav",
+			"killed": "sounds/creatures/raptorKilled.wav",
+			"move": "sounds/creatures/raptorMove.wav",
+			"wince": "sounds/creatures/raptorWince.wav",
+			"startMoving": "sounds/creatures/raptorStartMoving.wav",
+			"endMoving": "sounds/creatures/raptorEndMoving.wav"
 		}
 	}
 }

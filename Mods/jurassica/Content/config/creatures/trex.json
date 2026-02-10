@@ -45,10 +45,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/trex/trex.json",
-			"iconSmall": "jurassica/sprites/icons/trexSmall.png",
-			"iconLarge": "jurassica/sprites/icons/trexLarge.png",
-			"map": "jurassica/sprites/adventure/trexMap.json",
+			"animation": "sprites/creatures/trex/trex.json",
+			"iconSmall": "sprites/icons/trexSmall.png",
+			"iconLarge": "sprites/icons/trexLarge.png",
+			"map": "sprites/creatures/trex/trexMap.json",
 			"animationTime": {
 				"walk": 1.0,
 				"idle": 1.2,
@@ -56,13 +56,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/trexAttack.wav",
-			"defend": "jurassica/sounds/creatures/trexDefend.wav",
-			"killed": "jurassica/sounds/creatures/trexKilled.wav",
-			"move": "jurassica/sounds/creatures/trexMove.wav",
-			"wince": "jurassica/sounds/creatures/trexWince.wav",
-			"startMoving": "jurassica/sounds/creatures/trexStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/trexEndMoving.wav"
+			"attack": "sounds/creatures/trexAttack.wav",
+			"defend": "sounds/creatures/trexDefend.wav",
+			"killed": "sounds/creatures/trexKilled.wav",
+			"move": "sounds/creatures/trexMove.wav",
+			"wince": "sounds/creatures/trexWince.wav",
+			"startMoving": "sounds/creatures/trexStartMoving.wav",
+			"endMoving": "sounds/creatures/trexEndMoving.wav"
 		}
 	}
 }

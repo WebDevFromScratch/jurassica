@@ -32,10 +32,10 @@
 		],
 		"abilities": [],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/ozimek/ozimek.json",
-			"iconSmall": "jurassica/sprites/icons/ozimekSmall.png",
-			"iconLarge": "jurassica/sprites/icons/ozimekLarge.png",
-			"map": "jurassica/sprites/adventure/ozimekMap.json",
+			"animation": "sprites/creatures/ozimek/ozimek.json",
+			"iconSmall": "sprites/icons/ozimekSmall.png",
+			"iconLarge": "sprites/icons/ozimekLarge.png",
+			"map": "sprites/creatures/ozimek/ozimekMap.json",
 			"animationTime": {
 				"walk": 0.7,
 				"idle": 1.0,
@@ -43,13 +43,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/ozimekAttack.wav",
-			"defend": "jurassica/sounds/creatures/ozimekDefend.wav",
-			"killed": "jurassica/sounds/creatures/ozimekKilled.wav",
-			"move": "jurassica/sounds/creatures/ozimekMove.wav",
-			"wince": "jurassica/sounds/creatures/ozimekWince.wav",
-			"startMoving": "jurassica/sounds/creatures/ozimekStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/ozimekEndMoving.wav"
+			"attack": "sounds/creatures/ozimekAttack.wav",
+			"defend": "sounds/creatures/ozimekDefend.wav",
+			"killed": "sounds/creatures/ozimekKilled.wav",
+			"move": "sounds/creatures/ozimekMove.wav",
+			"wince": "sounds/creatures/ozimekWince.wav",
+			"startMoving": "sounds/creatures/ozimekStartMoving.wav",
+			"endMoving": "sounds/creatures/ozimekEndMoving.wav"
 		}
 	}
 }

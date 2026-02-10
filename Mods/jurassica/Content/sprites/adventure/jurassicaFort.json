@@ -1,0 +1,11 @@
+{
+	"basepath": "sprites/adventure/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"jurassicaFort.png"
+			]
+		}
+	]
+}

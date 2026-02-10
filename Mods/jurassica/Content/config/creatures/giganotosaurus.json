@@ -48,10 +48,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/giganotosaurus/giganotosaurus.json",
-			"iconSmall": "jurassica/sprites/icons/giganotosaurusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/giganotosaurusLarge.png",
-			"map": "jurassica/sprites/adventure/giganotosaurusMap.json",
+			"animation": "sprites/creatures/giganotosaurus/giganotosaurus.json",
+			"iconSmall": "sprites/icons/giganotosaurusSmall.png",
+			"iconLarge": "sprites/icons/giganotosaurusLarge.png",
+			"map": "sprites/creatures/giganotosaurus/giganotosaurusMap.json",
 			"animationTime": {
 				"walk": 1.0,
 				"idle": 1.2,
@@ -59,13 +59,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/giganotosaurusAttack.wav",
-			"defend": "jurassica/sounds/creatures/giganotosaurusDefend.wav",
-			"killed": "jurassica/sounds/creatures/giganotosaurusKilled.wav",
-			"move": "jurassica/sounds/creatures/giganotosaurusMove.wav",
-			"wince": "jurassica/sounds/creatures/giganotosaurusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/giganotosaurusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/giganotosaurusEndMoving.wav"
+			"attack": "sounds/creatures/giganotosaurusAttack.wav",
+			"defend": "sounds/creatures/giganotosaurusDefend.wav",
+			"killed": "sounds/creatures/giganotosaurusKilled.wav",
+			"move": "sounds/creatures/giganotosaurusMove.wav",
+			"wince": "sounds/creatures/giganotosaurusWince.wav",
+			"startMoving": "sounds/creatures/giganotosaurusStartMoving.wav",
+			"endMoving": "sounds/creatures/giganotosaurusEndMoving.wav"
 		}
 	}
 }

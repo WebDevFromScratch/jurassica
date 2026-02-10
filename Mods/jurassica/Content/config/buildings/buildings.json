@@ -4,7 +4,6 @@
     "name": "Circle of Elders I",
     "description": "Allows your heroes to learn 1st level spells. Ancient shamans gather here to channel primal magic.",
     "mode": "normal",
-    "requires": [],
     "cost": {
       "gold": 2000,
       "ore": 5,
@@ -16,7 +15,12 @@
     "name": "Circle of Elders II",
     "description": "Allows your heroes to learn 2nd level spells. The shamans delve deeper into the mysteries of the primeval world.",
     "mode": "normal",
-    "requires": ["mageGuild1"],
+    "requires": [
+      "allOf",
+      [
+        "mageGuild1"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "ore": 5,
@@ -29,7 +33,12 @@
     "name": "Circle of Elders III",
     "description": "Allows your heroes to learn 3rd level spells. Volcanic energy fuels the shamans' growing power.",
     "mode": "normal",
-    "requires": ["mageGuild2"],
+    "requires": [
+      "allOf",
+      [
+        "mageGuild2"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "ore": 5,
@@ -42,7 +51,12 @@
     "name": "Circle of Elders IV",
     "description": "Allows your heroes to learn 4th level spells. Only the most powerful shamans can wield these ancient incantations.",
     "mode": "normal",
-    "requires": ["mageGuild3"],
+    "requires": [
+      "allOf",
+      [
+        "mageGuild3"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "ore": 5,
@@ -55,7 +69,6 @@
     "name": "Watering Hole",
     "description": "A gathering place where heroes come to be recruited. Dinosaurs and warriors alike converge at this ancient oasis.",
     "mode": "normal",
-    "requires": [],
     "cost": {
       "gold": 500,
       "wood": 5
@@ -66,7 +79,6 @@
     "name": "Fort",
     "description": "Provides basic town defenses and allows creature recruitment from built dwellings. Wooden palisades reinforced with dinosaur bone.",
     "mode": "normal",
-    "requires": [],
     "cost": {
       "gold": 5000,
       "ore": 5,
@@ -78,7 +90,12 @@
     "name": "Citadel",
     "description": "Strengthens town defenses with a central tower and increases creature growth by 50%. The walls are lined with fossilized armor plates.",
     "mode": "normal",
-    "requires": ["fort"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ]
+    ],
     "cost": {
       "gold": 2500,
       "ore": 5
@@ -89,7 +106,12 @@
     "name": "Castle",
     "description": "Provides full fortifications with arrow towers, a moat, and doubles creature growth. A fortress of stone and bone worthy of the mightiest saurians.",
     "mode": "normal",
-    "requires": ["citadel"],
+    "requires": [
+      "allOf",
+      [
+        "citadel"
+      ]
+    ],
     "cost": {
       "gold": 5000,
       "ore": 10,
@@ -101,7 +123,6 @@
     "name": "Village Hall",
     "description": "The basic administrative center of the town. Produces 500 gold per day.",
     "mode": "auto",
-    "requires": [],
     "cost": {}
   },
   "townHall": {
@@ -109,7 +130,12 @@
     "name": "Town Hall",
     "description": "An improved administrative center. Produces 1000 gold per day.",
     "mode": "normal",
-    "requires": ["tavern"],
+    "requires": [
+      "allOf",
+      [
+        "tavern"
+      ]
+    ],
     "cost": {
       "gold": 2500
     }
@@ -119,7 +145,21 @@
     "name": "City Hall",
     "description": "A grand hall of governance. Produces 2000 gold per day.",
     "mode": "normal",
-    "requires": ["townHall", "mageGuild1", "marketplace", "blacksmith"],
+    "requires": [
+      "allOf",
+      [
+        "townHall"
+      ],
+      [
+        "mageGuild1"
+      ],
+      [
+        "marketplace"
+      ],
+      [
+        "blacksmith"
+      ]
+    ],
     "cost": {
       "gold": 5000,
       "ore": 2,
@@ -131,7 +171,15 @@
     "name": "Capitol",
     "description": "The seat of supreme power. Produces 4000 gold per day. Only one capitol may exist per player.",
     "mode": "normal",
-    "requires": ["cityHall", "castle"],
+    "requires": [
+      "allOf",
+      [
+        "cityHall"
+      ],
+      [
+        "castle"
+      ]
+    ],
     "cost": {
       "gold": 10000,
       "ore": 5,
@@ -143,7 +191,6 @@
     "name": "Trading Grounds",
     "description": "Allows resource trading. Dinosaur herders and scavengers barter goods beneath the canopy of giant ferns.",
     "mode": "normal",
-    "requires": [],
     "cost": {
       "gold": 500,
       "wood": 5
@@ -154,7 +201,12 @@
     "name": "Sulfur Vent",
     "description": "Produces 1 sulfur per day. A volcanic fissure harnessed to extract precious sulfur from deep within the earth.",
     "mode": "normal",
-    "requires": ["marketplace"],
+    "requires": [
+      "allOf",
+      [
+        "marketplace"
+      ]
+    ],
     "cost": {
       "gold": 5000,
       "ore": 5
@@ -168,7 +220,6 @@
     "name": "Fossil Forge",
     "description": "Allows heroes to purchase basic war machines. Weapons and armor are crafted from fossilized bone and volcanic glass.",
     "mode": "normal",
-    "requires": [],
     "cost": {
       "gold": 1000,
       "wood": 5
@@ -179,7 +230,12 @@
     "name": "Breeding Grounds",
     "description": "Increases raptor growth by 2 per week. A carefully managed nesting area where raptors breed and hatch under watchful eyes.",
     "mode": "normal",
-    "requires": ["dwelling2"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling2"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "wood": 5
@@ -190,7 +246,6 @@
     "name": "Heart of Pangaea",
     "description": "The ultimate artifact of prehistoric power. Produces 5000 gold per day and grants all Jurassica creatures +2 attack and +2 defense. The fossilized heart of the ancient supercontinent pulses with primordial energy.",
     "mode": "grail",
-    "requires": [],
     "cost": {}
   },
   "dwelling1": {
@@ -198,7 +253,12 @@
     "name": "Glider Nest",
     "description": "Allows recruitment of Ozimeks. Woven nests perched among the treetops where these small gliding reptiles roost.",
     "mode": "normal",
-    "requires": ["fort"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ]
+    ],
     "cost": {
       "gold": 400,
       "wood": 5
@@ -209,7 +269,12 @@
     "name": "Raptor Den",
     "description": "Allows recruitment of Raptors. A hidden cave system where swift predators lurk in the shadows.",
     "mode": "normal",
-    "requires": ["fort"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "wood": 5,
@@ -221,7 +286,15 @@
     "name": "Ceratopsian Pen",
     "description": "Allows recruitment of Triceratops. A reinforced enclosure built to contain these powerful horned beasts.",
     "mode": "normal",
-    "requires": ["fort", "dwelling1"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ],
+      [
+        "dwelling1"
+      ]
+    ],
     "cost": {
       "gold": 2000,
       "wood": 5,
@@ -233,7 +306,15 @@
     "name": "Plated Enclosure",
     "description": "Allows recruitment of Stegosaurus. A sturdy yard where armored herbivores graze among cycads and horsetails.",
     "mode": "normal",
-    "requires": ["fort", "dwelling2"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ],
+      [
+        "dwelling2"
+      ]
+    ],
     "cost": {
       "gold": 3000,
       "ore": 5,
@@ -245,7 +326,15 @@
     "name": "Pterosaur Roost",
     "description": "Allows recruitment of Pterodactyls. Towering cliff-face roosts where winged reptiles survey the land below.",
     "mode": "normal",
-    "requires": ["fort", "dwelling3"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ],
+      [
+        "dwelling3"
+      ]
+    ],
     "cost": {
       "gold": 4000,
       "wood": 5,
@@ -258,7 +347,15 @@
     "name": "Tidal Grotto",
     "description": "Allows recruitment of Elasmosaurus. A flooded sea cave connected to the deep ocean by ancient channels.",
     "mode": "normal",
-    "requires": ["fort", "dwelling4"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ],
+      [
+        "dwelling4"
+      ]
+    ],
     "cost": {
       "gold": 8000,
       "ore": 5,
@@ -271,7 +368,15 @@
     "name": "Primeval Throne",
     "description": "Allows recruitment of Tyrannosaurus Rex. A volcanic caldera serves as the lair of the king of all dinosaurs.",
     "mode": "normal",
-    "requires": ["fort", "dwelling5"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ],
+      [
+        "dwelling5"
+      ]
+    ],
     "cost": {
       "gold": 20000,
       "ore": 10,
@@ -285,7 +390,12 @@
     "name": "Volans Aerie",
     "description": "Allows recruitment of Ozimek Volans, the upgraded form of Ozimek. Enhanced nests with thermal updraft channels for true flight.",
     "mode": "normal",
-    "requires": ["dwelling1"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling1"
+      ]
+    ],
     "cost": {
       "gold": 1000,
       "wood": 5
@@ -297,7 +407,12 @@
     "name": "Predator Lair",
     "description": "Allows recruitment of Utahraptors, the upgraded form of Raptor. A larger, more fortified den for these fearsome hunters.",
     "mode": "normal",
-    "requires": ["dwelling2"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling2"
+      ]
+    ],
     "cost": {
       "gold": 1500,
       "ore": 5
@@ -309,7 +424,12 @@
     "name": "Armored Stockade",
     "description": "Allows recruitment of Torosaurus, the upgraded form of Triceratops. Reinforced pens for even mightier horned beasts.",
     "mode": "normal",
-    "requires": ["dwelling3"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling3"
+      ]
+    ],
     "cost": {
       "gold": 2000,
       "ore": 5
@@ -321,7 +441,12 @@
     "name": "Spike Yard",
     "description": "Allows recruitment of Kentrosaurus, the upgraded form of Stegosaurus. A yard bristling with sharpened stakes to match its spiny occupants.",
     "mode": "normal",
-    "requires": ["dwelling4"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling4"
+      ]
+    ],
     "cost": {
       "gold": 3000,
       "ore": 5,
@@ -334,7 +459,12 @@
     "name": "Sky Citadel",
     "description": "Allows recruitment of Quetzalcoatlus, the upgraded form of Pterodactyl. A massive aerial fortress atop the highest peaks.",
     "mode": "normal",
-    "requires": ["dwelling5"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling5"
+      ]
+    ],
     "cost": {
       "gold": 3000,
       "ore": 5,
@@ -347,7 +477,12 @@
     "name": "Abyssal Pool",
     "description": "Allows recruitment of Mosasaurus, the upgraded form of Elasmosaurus. A bottomless pool connected to the darkest ocean depths.",
     "mode": "normal",
-    "requires": ["dwelling6"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling6"
+      ]
+    ],
     "cost": {
       "gold": 4000,
       "ore": 5,
@@ -360,7 +495,12 @@
     "name": "Extinction Arena",
     "description": "Allows recruitment of Giganotosaurus, the upgraded form of Tyrannosaurus Rex. A cataclysmic arena where only the most colossal predators survive.",
     "mode": "normal",
-    "requires": ["dwelling7"],
+    "requires": [
+      "allOf",
+      [
+        "dwelling7"
+      ]
+    ],
     "cost": {
       "gold": 10000,
       "ore": 5,
@@ -374,7 +514,12 @@
     "name": "Tar Pits",
     "description": "All Jurassica creatures gain +1 defense during siege battles. Bubbling pools of black tar form a natural barrier that toughens the resolve of defending dinosaurs.",
     "mode": "normal",
-    "requires": ["fort"],
+    "requires": [
+      "allOf",
+      [
+        "fort"
+      ]
+    ],
     "cost": {
       "gold": 2000,
       "ore": 5,
@@ -386,7 +531,12 @@
     "name": "Amber Mine",
     "description": "Produces 1 crystal per day. Ancient resin deposits are excavated and refined into precious crystal resources.",
     "mode": "normal",
-    "requires": ["marketplace"],
+    "requires": [
+      "allOf",
+      [
+        "marketplace"
+      ]
+    ],
     "cost": {
       "gold": 3000,
       "ore": 5,
@@ -401,7 +551,15 @@
     "name": "Fossil Museum",
     "description": "All visiting heroes gain 1000 experience points. A grand hall displaying the preserved remains of legendary creatures, inspiring all who walk its corridors.",
     "mode": "normal",
-    "requires": ["mageGuild1", "tavern"],
+    "requires": [
+      "allOf",
+      [
+        "mageGuild1"
+      ],
+      [
+        "tavern"
+      ]
+    ],
     "cost": {
       "gold": 5000,
       "ore": 5,
@@ -414,7 +572,12 @@
     "name": "Primordial Spring",
     "description": "Visiting heroes gain +2 spell power while stationed in town. A geothermal spring infused with raw magical energy from the planet's core.",
     "mode": "normal",
-    "requires": ["mageGuild2"],
+    "requires": [
+      "allOf",
+      [
+        "mageGuild2"
+      ]
+    ],
     "cost": {
       "gold": 4000,
       "mercury": 10

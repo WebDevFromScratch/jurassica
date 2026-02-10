@@ -47,12 +47,12 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/quetzalcoatlus/quetzalcoatlus.json",
-			"iconSmall": "jurassica/sprites/icons/quetzalcoatlusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/quetzalcoatlusLarge.png",
-			"map": "jurassica/sprites/adventure/quetzalcoatlusMap.json",
+			"animation": "sprites/creatures/quetzalcoatlus/quetzalcoatlus.json",
+			"iconSmall": "sprites/icons/quetzalcoatlusSmall.png",
+			"iconLarge": "sprites/icons/quetzalcoatlusLarge.png",
+			"map": "sprites/creatures/quetzalcoatlus/quetzalcoatlusMap.json",
 			"missile": {
-				"animation": "jurassica/sprites/creatures/quetzalcoatlus/quetzalcoatlusMissile.json",
+				"animation": "sprites/creatures/quetzalcoatlus/quetzalcoatlusMissile.json",
 				"offset": {
 					"upperX": 0,
 					"upperY": -25,
@@ -61,7 +61,21 @@
 					"lowerX": 0,
 					"lowerY": 15
 				},
-				"frameAngles": [90, 78, 67, 56, 45, 34, 23, 12, 0, -12, -23, -34, -45]
+				"frameAngles": [
+					90,
+					78,
+					67,
+					56,
+					45,
+					34,
+					23,
+					12,
+					0,
+					-12,
+					-23,
+					-34,
+					-45
+				]
 			},
 			"animationTime": {
 				"walk": 0.6,
@@ -70,14 +84,14 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/quetzalcoatlusAttack.wav",
-			"defend": "jurassica/sounds/creatures/quetzalcoatlusDefend.wav",
-			"killed": "jurassica/sounds/creatures/quetzalcoatlusKilled.wav",
-			"move": "jurassica/sounds/creatures/quetzalcoatlusMove.wav",
-			"shoot": "jurassica/sounds/creatures/quetzalcoatlusShoot.wav",
-			"wince": "jurassica/sounds/creatures/quetzalcoatlusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/quetzalcoatlusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/quetzalcoatlusEndMoving.wav"
+			"attack": "sounds/creatures/quetzalcoatlusAttack.wav",
+			"defend": "sounds/creatures/quetzalcoatlusDefend.wav",
+			"killed": "sounds/creatures/quetzalcoatlusKilled.wav",
+			"move": "sounds/creatures/quetzalcoatlusMove.wav",
+			"shoot": "sounds/creatures/quetzalcoatlusShoot.wav",
+			"wince": "sounds/creatures/quetzalcoatlusWince.wav",
+			"startMoving": "sounds/creatures/quetzalcoatlusStartMoving.wav",
+			"endMoving": "sounds/creatures/quetzalcoatlusEndMoving.wav"
 		}
 	}
 }

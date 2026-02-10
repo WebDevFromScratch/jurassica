@@ -40,10 +40,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/utahraptor/utahraptor.json",
-			"iconSmall": "jurassica/sprites/icons/utahraptorSmall.png",
-			"iconLarge": "jurassica/sprites/icons/utahraptorLarge.png",
-			"map": "jurassica/sprites/adventure/utahraptorMap.json",
+			"animation": "sprites/creatures/utahraptor/utahraptor.json",
+			"iconSmall": "sprites/icons/utahraptorSmall.png",
+			"iconLarge": "sprites/icons/utahraptorLarge.png",
+			"map": "sprites/creatures/utahraptor/utahraptorMap.json",
 			"animationTime": {
 				"walk": 0.5,
 				"idle": 1.0,
@@ -51,13 +51,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/utahraptorAttack.wav",
-			"defend": "jurassica/sounds/creatures/utahraptorDefend.wav",
-			"killed": "jurassica/sounds/creatures/utahraptorKilled.wav",
-			"move": "jurassica/sounds/creatures/utahraptorMove.wav",
-			"wince": "jurassica/sounds/creatures/utahraptorWince.wav",
-			"startMoving": "jurassica/sounds/creatures/utahraptorStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/utahraptorEndMoving.wav"
+			"attack": "sounds/creatures/utahraptorAttack.wav",
+			"defend": "sounds/creatures/utahraptorDefend.wav",
+			"killed": "sounds/creatures/utahraptorKilled.wav",
+			"move": "sounds/creatures/utahraptorMove.wav",
+			"wince": "sounds/creatures/utahraptorWince.wav",
+			"startMoving": "sounds/creatures/utahraptorStartMoving.wav",
+			"endMoving": "sounds/creatures/utahraptorEndMoving.wav"
 		}
 	}
 }

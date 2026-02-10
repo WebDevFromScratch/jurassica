@@ -36,10 +36,10 @@
 			}
 		],
 		"graphics": {
-			"animation": "jurassica/sprites/creatures/torosaurus/torosaurus.json",
-			"iconSmall": "jurassica/sprites/icons/torosaurusSmall.png",
-			"iconLarge": "jurassica/sprites/icons/torosaurusLarge.png",
-			"map": "jurassica/sprites/adventure/torosaurusMap.json",
+			"animation": "sprites/creatures/torosaurus/torosaurus.json",
+			"iconSmall": "sprites/icons/torosaurusSmall.png",
+			"iconLarge": "sprites/icons/torosaurusLarge.png",
+			"map": "sprites/creatures/torosaurus/torosaurusMap.json",
 			"animationTime": {
 				"walk": 0.8,
 				"idle": 1.0,
@@ -47,13 +47,13 @@
 			}
 		},
 		"sound": {
-			"attack": "jurassica/sounds/creatures/torosaurusAttack.wav",
-			"defend": "jurassica/sounds/creatures/torosaurusDefend.wav",
-			"killed": "jurassica/sounds/creatures/torosaurusKilled.wav",
-			"move": "jurassica/sounds/creatures/torosaurusMove.wav",
-			"wince": "jurassica/sounds/creatures/torosaurusWince.wav",
-			"startMoving": "jurassica/sounds/creatures/torosaurusStartMoving.wav",
-			"endMoving": "jurassica/sounds/creatures/torosaurusEndMoving.wav"
+			"attack": "sounds/creatures/torosaurusAttack.wav",
+			"defend": "sounds/creatures/torosaurusDefend.wav",
+			"killed": "sounds/creatures/torosaurusKilled.wav",
+			"move": "sounds/creatures/torosaurusMove.wav",
+			"wince": "sounds/creatures/torosaurusWince.wav",
+			"startMoving": "sounds/creatures/torosaurusStartMoving.wav",
+			"endMoving": "sounds/creatures/torosaurusEndMoving.wav"
 		}
 	}
 }
