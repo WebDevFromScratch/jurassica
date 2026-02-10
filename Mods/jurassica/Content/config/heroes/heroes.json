@@ -12,10 +12,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/rexarLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/rexarSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/rexarSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/rexarSpec44.png"
+      "large": "sprites/heroes/portraits/rexarLarge.png",
+      "small": "sprites/heroes/portraits/rexarSmall.png",
+      "specialtySmall": "sprites/icons/spec/rexarSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/rexarSpec44.png"
     },
     "army": [
       { "creature": "jurassica:trex", "min": 1, "max": 1 },
@@ -42,10 +42,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/triannaLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/triannaSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/triannaSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/triannaSpec44.png"
+      "large": "sprites/heroes/portraits/triannaLarge.png",
+      "small": "sprites/heroes/portraits/triannaSmall.png",
+      "specialtySmall": "sprites/icons/spec/triannaSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/triannaSpec44.png"
     },
     "army": [
       { "creature": "jurassica:triceratops", "min": 2, "max": 4 },
@@ -72,10 +72,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/veloxLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/veloxSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/veloxSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/veloxSpec44.png"
+      "large": "sprites/heroes/portraits/veloxLarge.png",
+      "small": "sprites/heroes/portraits/veloxSmall.png",
+      "specialtySmall": "sprites/icons/spec/veloxSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/veloxSpec44.png"
     },
     "army": [
       { "creature": "jurassica:raptor", "min": 6, "max": 12 },
@@ -102,10 +102,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/pangeaLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/pangeaSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/pangeaSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/pangeaSpec44.png"
+      "large": "sprites/heroes/portraits/pangeaLarge.png",
+      "small": "sprites/heroes/portraits/pangeaSmall.png",
+      "specialtySmall": "sprites/icons/spec/pangeaSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/pangeaSpec44.png"
     },
     "army": [
       { "creature": "jurassica:stegosaurus", "min": 2, "max": 4 },
@@ -132,10 +132,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/ashclawLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/ashclawSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/ashclawSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/ashclawSpec44.png"
+      "large": "sprites/heroes/portraits/ashclawLarge.png",
+      "small": "sprites/heroes/portraits/ashclawSmall.png",
+      "specialtySmall": "sprites/icons/spec/ashclawSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/ashclawSpec44.png"
     },
     "army": [
       { "creature": "jurassica:elasmosaurus", "min": 2, "max": 3 },
@@ -162,10 +162,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/fernhideLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/fernhideSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/fernhideSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/fernhideSpec44.png"
+      "large": "sprites/heroes/portraits/fernhideLarge.png",
+      "small": "sprites/heroes/portraits/fernhideSmall.png",
+      "specialtySmall": "sprites/icons/spec/fernhideSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/fernhideSpec44.png"
     },
     "army": [
       { "creature": "jurassica:ozimek", "min": 20, "max": 40 },
@@ -192,10 +192,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/bonebreakerLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/bonebreakerSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/bonebreakerSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/bonebreakerSpec44.png"
+      "large": "sprites/heroes/portraits/bonebreakerLarge.png",
+      "small": "sprites/heroes/portraits/bonebreakerSmall.png",
+      "specialtySmall": "sprites/icons/spec/bonebreakerSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/bonebreakerSpec44.png"
     },
     "army": [
       { "creature": "jurassica:trex", "min": 1, "max": 1 },
@@ -229,10 +229,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/steelhornLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/steelhornSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/steelhornSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/steelhornSpec44.png"
+      "large": "sprites/heroes/portraits/steelhornLarge.png",
+      "small": "sprites/heroes/portraits/steelhornSmall.png",
+      "specialtySmall": "sprites/icons/spec/steelhornSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/steelhornSpec44.png"
     },
     "army": [
       { "creature": "jurassica:torosaurus", "min": 2, "max": 3 },
@@ -259,10 +259,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/fossiliusLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/fossiliusSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/fossiliusSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/fossiliusSpec44.png"
+      "large": "sprites/heroes/portraits/fossiliusLarge.png",
+      "small": "sprites/heroes/portraits/fossiliusSmall.png",
+      "specialtySmall": "sprites/icons/spec/fossiliusSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/fossiliusSpec44.png"
     },
     "army": [
       { "creature": "jurassica:stegosaurus", "min": 2, "max": 4 },
@@ -296,10 +296,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/amberaLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/amberaSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/amberaSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/amberaSpec44.png"
+      "large": "sprites/heroes/portraits/amberaLarge.png",
+      "small": "sprites/heroes/portraits/amberaSmall.png",
+      "specialtySmall": "sprites/icons/spec/amberaSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/amberaSpec44.png"
     },
     "army": [
       { "creature": "jurassica:pterodactyl", "min": 3, "max": 6 },
@@ -326,10 +326,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/volcanisLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/volcanisSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/volcanisSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/volcanisSpec44.png"
+      "large": "sprites/heroes/portraits/volcanisLarge.png",
+      "small": "sprites/heroes/portraits/volcanisSmall.png",
+      "specialtySmall": "sprites/icons/spec/volcanisSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/volcanisSpec44.png"
     },
     "army": [
       { "creature": "jurassica:raptor", "min": 4, "max": 8 },
@@ -363,10 +363,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/glacieraLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/glacieraSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/glacieraSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/glacieraSpec44.png"
+      "large": "sprites/heroes/portraits/glacieraLarge.png",
+      "small": "sprites/heroes/portraits/glacieraSmall.png",
+      "specialtySmall": "sprites/icons/spec/glacieraSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/glacieraSpec44.png"
     },
     "army": [
       { "creature": "jurassica:elasmosaurus", "min": 2, "max": 3 },
@@ -393,10 +393,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/coproliteLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/coproliteSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/coproliteSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/coproliteSpec44.png"
+      "large": "sprites/heroes/portraits/coproliteLarge.png",
+      "small": "sprites/heroes/portraits/coproliteSmall.png",
+      "specialtySmall": "sprites/icons/spec/coproliteSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/coproliteSpec44.png"
     },
     "army": [
       { "creature": "jurassica:stegosaurus", "min": 2, "max": 4 },
@@ -430,10 +430,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/gondwanaLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/gondwanaSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/gondwanaSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/gondwanaSpec44.png"
+      "large": "sprites/heroes/portraits/gondwanaLarge.png",
+      "small": "sprites/heroes/portraits/gondwanaSmall.png",
+      "specialtySmall": "sprites/icons/spec/gondwanaSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/gondwanaSpec44.png"
     },
     "army": [
       { "creature": "jurassica:triceratops", "min": 2, "max": 4 },
@@ -467,10 +467,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/mezozoicaLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/mezozoicaSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/mezozoicaSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/mezozoicaSpec44.png"
+      "large": "sprites/heroes/portraits/mezozoicaLarge.png",
+      "small": "sprites/heroes/portraits/mezozoicaSmall.png",
+      "specialtySmall": "sprites/icons/spec/mezozoicaSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/mezozoicaSpec44.png"
     },
     "army": [
       { "creature": "jurassica:kentrosaurus", "min": 2, "max": 4 },
@@ -497,10 +497,10 @@
       }
     },
     "images": {
-      "large": "jurassica/sprites/heroes/portraits/tethysLarge.png",
-      "small": "jurassica/sprites/heroes/portraits/tethysSmall.png",
-      "specialtySmall": "jurassica/sprites/icons/spec/tethysSpec32.png",
-      "specialtyLarge": "jurassica/sprites/icons/spec/tethysSpec44.png"
+      "large": "sprites/heroes/portraits/tethysLarge.png",
+      "small": "sprites/heroes/portraits/tethysSmall.png",
+      "specialtySmall": "sprites/icons/spec/tethysSpec32.png",
+      "specialtyLarge": "sprites/icons/spec/tethysSpec44.png"
     },
     "army": [
       { "creature": "jurassica:quetzalcoatlus", "min": 2, "max": 3 },

@@ -58,14 +58,14 @@
     },
     "animation": {
       "battle": {
-        "male": "jurassica/sprites/heroes/wardenBattle",
-        "female": "jurassica/sprites/heroes/wardenBattle"
+        "male": "sprites/heroes/warchiefBattle",
+        "female": "sprites/heroes/warchiefBattle"
       }
     },
     "mapObject": {
       "templates": {
         "normal": {
-          "animation": "jurassica/sprites/heroes/wardenMap"
+          "animation": "sprites/heroes/warchiefMap"
         }
       }
     }
@@ -129,14 +129,14 @@
     },
     "animation": {
       "battle": {
-        "male": "jurassica/sprites/heroes/paleontologistBattle",
-        "female": "jurassica/sprites/heroes/paleontologistBattle"
+        "male": "sprites/heroes/sauromancerBattle",
+        "female": "sprites/heroes/sauromancerBattle"
       }
     },
     "mapObject": {
       "templates": {
         "normal": {
-          "animation": "jurassica/sprites/heroes/paleontologistMap"
+          "animation": "sprites/heroes/sauromancerMap"
         }
       }
     }

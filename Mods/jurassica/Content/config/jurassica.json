@@ -7,34 +7,34 @@
     "preferUndergroundPlacement": false,
     "special": false,
     "creatureBackground": {
-      "120px": "jurassica/sprites/icons/CRBKGLAV.png",
-      "130px": "jurassica/sprites/icons/CRBKGJUR.png"
+      "120px": "sprites/icons/CRBKGLAV.png",
+      "130px": "sprites/icons/CRBKGJUR.png"
     },
     "puzzleMap": {
-      "prefix": "jurassica/sprites/puzzleMap/puzzle",
+      "prefix": "sprites/puzzleMap/puzzle",
       "pieces": []
     },
     "town": {
       "mapObject": {
         "templates": {
           "village": {
-            "animation": "jurassica/sprites/adventure/townJurassicaVillage"
+            "animation": "sprites/adventure/townJurassicaVillage"
           },
           "fort": {
-            "animation": "jurassica/sprites/adventure/townJurassicaFort"
+            "animation": "sprites/adventure/townJurassicaFort"
           },
           "castle": {
-            "animation": "jurassica/sprites/adventure/townJurassicaCastle"
+            "animation": "sprites/adventure/townJurassicaCastle"
           }
         }
       },
-      "buildingsIcons": "jurassica/sprites/towns/jurassica/buildings/icons.json",
-      "hallBackground": "jurassica/sprites/towns/jurassica/hallBackground.png",
-      "townBackground": "jurassica/sprites/towns/jurassica/townBackground.png",
-      "guildWindow": "jurassica/sprites/towns/jurassica/guildWindow.png",
-      "guildBackground": "jurassica/sprites/towns/jurassica/guildBackground.png",
+      "buildingsIcons": "sprites/towns/jurassica/buildings/icons.json",
+      "hallBackground": "sprites/towns/jurassica/hallBackground.png",
+      "townBackground": "sprites/towns/jurassica/townBackground.png",
+      "guildWindow": "sprites/towns/jurassica/guildWindow.png",
+      "guildBackground": "sprites/towns/jurassica/guildBackground.png",
       "musicTheme": [
-        "jurassica/music/jurassicaTown"
+        "music/jurassicaTown"
       ],
       "names": [
         "Pangaea",
@@ -136,9 +136,9 @@
       "structures": {},
       "siege": {
         "shooter": "jurassica:pterodactyl",
-        "towerIconSmall": "jurassica/sprites/icons/towerSmall.png",
-        "towerIconLarge": "jurassica/sprites/icons/towerLarge.png",
-        "imagePrefix": "jurassica/sprites/towns/jurassica/siege/SGJUR",
+        "towerIconSmall": "sprites/icons/towerSmall.png",
+        "towerIconLarge": "sprites/icons/towerLarge.png",
+        "imagePrefix": "sprites/towns/jurassica/siege/SGJUR",
         "towers": {
           "top": {
             "tower": {
