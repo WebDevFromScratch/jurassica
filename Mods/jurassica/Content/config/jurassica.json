@@ -7,8 +7,8 @@
     "preferUndergroundPlacement": false,
     "special": false,
     "creatureBackground": {
-      "120px": "sprites/towns/jurassica/creatBg120.png",
-      "130px": "sprites/towns/jurassica/creatBg130.png"
+      "120px": "towns/jurassica/creatBg120.png",
+      "130px": "towns/jurassica/creatBg130.png"
     },
     "puzzleMap": {
       "prefix": "sprites/puzzleMap/puzzle",
@@ -29,10 +29,10 @@
         }
       },
       "buildingsIcons": "sprites/towns/jurassica/buildings/icons.json",
-      "hallBackground": "sprites/towns/jurassica/hallBackground.png",
-      "townBackground": "sprites/towns/jurassica/townBackground.png",
-      "guildWindow": "sprites/towns/jurassica/guildWindow.png",
-      "guildBackground": "sprites/towns/jurassica/guildBackground.png",
+      "hallBackground": "towns/jurassica/hallBackground.png",
+      "townBackground": "towns/jurassica/townBackground.png",
+      "guildWindow": ["towns/jurassica/guildWindow.png"],
+      "guildBackground": ["towns/jurassica/guildBackground.png"],
       "musicTheme": [
         "music/jurassicaTown"
       ],
