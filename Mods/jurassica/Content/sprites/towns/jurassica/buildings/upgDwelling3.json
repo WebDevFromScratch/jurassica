@@ -1,0 +1,11 @@
+{
+	"basepath": "sprites/towns/jurassica/buildings/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"upgDwelling3.png"
+			]
+		}
+	]
+}

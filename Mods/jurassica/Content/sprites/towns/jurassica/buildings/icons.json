@@ -1,0 +1,215 @@
+{
+	"basepath": "sprites/towns/jurassica/buildings/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"mageGuild1_icon.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"mageGuild2_icon.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"mageGuild3_icon.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"mageGuild4_icon.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"tavern_icon.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"fort_icon.png"
+			]
+		},
+		{
+			"group": 8,
+			"frames": [
+				"citadel_icon.png"
+			]
+		},
+		{
+			"group": 9,
+			"frames": [
+				"castle_icon.png"
+			]
+		},
+		{
+			"group": 10,
+			"frames": [
+				"villageHall_icon.png"
+			]
+		},
+		{
+			"group": 11,
+			"frames": [
+				"townHall_icon.png"
+			]
+		},
+		{
+			"group": 12,
+			"frames": [
+				"cityHall_icon.png"
+			]
+		},
+		{
+			"group": 13,
+			"frames": [
+				"capitol_icon.png"
+			]
+		},
+		{
+			"group": 14,
+			"frames": [
+				"marketplace_icon.png"
+			]
+		},
+		{
+			"group": 15,
+			"frames": [
+				"resourceSilo_icon.png"
+			]
+		},
+		{
+			"group": 16,
+			"frames": [
+				"blacksmith_icon.png"
+			]
+		},
+		{
+			"group": 18,
+			"frames": [
+				"horde1_icon.png"
+			]
+		},
+		{
+			"group": 26,
+			"frames": [
+				"grail_icon.png"
+			]
+		},
+		{
+			"group": 30,
+			"frames": [
+				"dwelling1_icon.png"
+			]
+		},
+		{
+			"group": 31,
+			"frames": [
+				"dwelling2_icon.png"
+			]
+		},
+		{
+			"group": 32,
+			"frames": [
+				"dwelling3_icon.png"
+			]
+		},
+		{
+			"group": 33,
+			"frames": [
+				"dwelling4_icon.png"
+			]
+		},
+		{
+			"group": 34,
+			"frames": [
+				"dwelling5_icon.png"
+			]
+		},
+		{
+			"group": 35,
+			"frames": [
+				"dwelling6_icon.png"
+			]
+		},
+		{
+			"group": 36,
+			"frames": [
+				"dwelling7_icon.png"
+			]
+		},
+		{
+			"group": 37,
+			"frames": [
+				"upgDwelling1_icon.png"
+			]
+		},
+		{
+			"group": 38,
+			"frames": [
+				"upgDwelling2_icon.png"
+			]
+		},
+		{
+			"group": 39,
+			"frames": [
+				"upgDwelling3_icon.png"
+			]
+		},
+		{
+			"group": 40,
+			"frames": [
+				"upgDwelling4_icon.png"
+			]
+		},
+		{
+			"group": 41,
+			"frames": [
+				"upgDwelling5_icon.png"
+			]
+		},
+		{
+			"group": 42,
+			"frames": [
+				"upgDwelling6_icon.png"
+			]
+		},
+		{
+			"group": 43,
+			"frames": [
+				"upgDwelling7_icon.png"
+			]
+		},
+		{
+			"group": 44,
+			"frames": [
+				"special1_icon.png"
+			]
+		},
+		{
+			"group": 45,
+			"frames": [
+				"special2_icon.png"
+			]
+		},
+		{
+			"group": 46,
+			"frames": [
+				"special3_icon.png"
+			]
+		},
+		{
+			"group": 47,
+			"frames": [
+				"special4_icon.png"
+			]
+		}
+	]
+}

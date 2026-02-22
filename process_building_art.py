@@ -36,48 +36,48 @@ RAW_DIR = os.path.join(BASE, "raw")
 # Original placeholder size (all buildings were 100x80)
 ORIG_W, ORIG_H = 100, 80
 
-# Building sizes by category
+# Building sizes by category (2x original scale for 800x374 town background)
 BUILDING_SIZES = {
-    # Grand (200x174)
-    "capitol":       (200, 174),
-    "castle":        (200, 174),
-    # Large (160x150)
-    "cityHall":      (160, 150),
-    "citadel":       (160, 150),
-    "grail":         (160, 150),
-    # Medium-Large (140x120)
-    "townHall":      (140, 120),
-    "fort":          (140, 120),
-    "dwelling5":     (140, 120),
-    "dwelling6":     (140, 120),
-    "upgDwelling5":  (140, 120),
-    "upgDwelling6":  (140, 120),
-    "dwelling7":     (140, 120),
-    "upgDwelling7":  (140, 120),
-    # Medium (120x100)
-    "villageHall":   (120, 100),
-    "mageGuild1":    (120, 100),
-    "mageGuild2":    (120, 100),
-    "mageGuild3":    (120, 100),
-    "mageGuild4":    (120, 100),
-    "dwelling1":     (120, 100),
-    "dwelling2":     (120, 100),
-    "dwelling3":     (120, 100),
-    "dwelling4":     (120, 100),
-    "upgDwelling1":  (120, 100),
-    "upgDwelling2":  (120, 100),
-    "upgDwelling3":  (120, 100),
-    "upgDwelling4":  (120, 100),
-    "special1":      (120, 100),
-    "special2":      (120, 100),
-    "special3":      (120, 100),
-    "special4":      (120, 100),
-    # Small (100x80)
-    "tavern":        (100, 80),
-    "marketplace":   (100, 80),
-    "resourceSilo":  (100, 80),
-    "blacksmith":    (100, 80),
-    "horde1":        (100, 80),
+    # Grand (400x348)
+    "capitol":       (400, 348),
+    "castle":        (400, 348),
+    # Large (320x300)
+    "cityHall":      (320, 300),
+    "citadel":       (320, 300),
+    "grail":         (320, 300),
+    # Medium-Large (280x240)
+    "townHall":      (280, 240),
+    "fort":          (280, 240),
+    "dwelling5":     (280, 240),
+    "dwelling6":     (280, 240),
+    "upgDwelling5":  (280, 240),
+    "upgDwelling6":  (280, 240),
+    "dwelling7":     (280, 240),
+    "upgDwelling7":  (280, 240),
+    # Medium (240x200)
+    "villageHall":   (240, 200),
+    "mageGuild1":    (240, 200),
+    "mageGuild2":    (240, 200),
+    "mageGuild3":    (240, 200),
+    "mageGuild4":    (240, 200),
+    "dwelling1":     (240, 200),
+    "dwelling2":     (240, 200),
+    "dwelling3":     (240, 200),
+    "dwelling4":     (240, 200),
+    "upgDwelling1":  (240, 200),
+    "upgDwelling2":  (240, 200),
+    "upgDwelling3":  (240, 200),
+    "upgDwelling4":  (240, 200),
+    "special1":      (240, 200),
+    "special2":      (240, 200),
+    "special3":      (240, 200),
+    "special4":      (240, 200),
+    # Small (200x160)
+    "tavern":        (200, 160),
+    "marketplace":   (200, 160),
+    "resourceSilo":  (200, 160),
+    "blacksmith":    (200, 160),
+    "horde1":        (200, 160),
 }
 
 # Current positions from jurassica.json (x, y for each building)
@@ -478,15 +478,21 @@ def generate_area_mask(img):
     """Generate area mask from alpha channel.
 
     White (255) where opaque (clickable), black (0) where transparent.
-    Dilated by 2px for a generous click target.
+    Heavily dilated and hole-filled for a generous, solid click target.
     """
     alpha = img.split()[3]  # Get alpha channel
 
     # Threshold: opaque enough = clickable
     area = alpha.point(lambda p: 255 if p > 64 else 0)
 
-    # Dilate by 2px for generous click target
-    area = area.filter(ImageFilter.MaxFilter(5))
+    # Aggressively dilate to merge nearby regions and close gaps
+    area = area.filter(ImageFilter.MaxFilter(9))
+
+    # Erode back slightly to keep roughly the original shape but with holes filled
+    area = area.filter(ImageFilter.MinFilter(5))
+
+    # Final dilation for generous click target (4px padding)
+    area = area.filter(ImageFilter.MaxFilter(9))
 
     # Convert to RGBA (VCMI expects RGBA masks)
     mask = Image.new("RGBA", img.size, (0, 0, 0, 0))
@@ -561,14 +567,15 @@ def generate_icon(img, size=44):
 def compute_adjusted_position(building_key):
     """Compute adjusted x,y position when building grows from 100x80.
 
-    Bottom-center anchor: y shifts up by (new_h - 80), x shifts left by (new_w - 100) / 2.
+    Center anchor: the building grows equally in all directions from
+    the center of the original 100x80 placeholder.
     Returns (new_x, new_y, dx, dy).
     """
     orig_x, orig_y = BUILDING_POSITIONS[building_key]
     new_w, new_h = BUILDING_SIZES[building_key]
 
     dx = -(new_w - ORIG_W) // 2
-    dy = -(new_h - ORIG_H)
+    dy = -(new_h - ORIG_H) // 2
 
     new_x = orig_x + dx
     new_y = orig_y + dy

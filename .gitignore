@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# AI-generated raw inputs (large, not checked in)
+raw/
+
+# Preview composites (generated, not checked in)
+previews/

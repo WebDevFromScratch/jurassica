@@ -173,16 +173,16 @@
           "border": "sprites/towns/jurassica/buildings/villageHall_border.png",
           "area": "sprites/towns/jurassica/buildings/villageHall_area.png",
           "x": 0,
-          "y": 200,
-          "z": 1
+          "y": 174,
+          "z": 8
         },
         "townHall": {
           "animation": "sprites/towns/jurassica/buildings/townHall.json",
           "border": "sprites/towns/jurassica/buildings/townHall_border.png",
           "area": "sprites/towns/jurassica/buildings/townHall_area.png",
           "x": 0,
-          "y": 200,
-          "z": 2,
+          "y": 134,
+          "z": 8,
           "hidden": true
         },
         "cityHall": {
@@ -190,8 +190,8 @@
           "border": "sprites/towns/jurassica/buildings/cityHall_border.png",
           "area": "sprites/towns/jurassica/buildings/cityHall_area.png",
           "x": 0,
-          "y": 200,
-          "z": 3,
+          "y": 74,
+          "z": 8,
           "hidden": true
         },
         "capitol": {
@@ -199,23 +199,23 @@
           "border": "sprites/towns/jurassica/buildings/capitol_border.png",
           "area": "sprites/towns/jurassica/buildings/capitol_area.png",
           "x": 0,
-          "y": 200,
-          "z": 4,
+          "y": 26,
+          "z": 8,
           "hidden": true
         },
         "fort": {
           "animation": "sprites/towns/jurassica/buildings/fort.json",
           "border": "sprites/towns/jurassica/buildings/fort_border.png",
           "area": "sprites/towns/jurassica/buildings/fort_area.png",
-          "x": 350,
-          "y": 30,
+          "x": 260,
+          "y": 60,
           "z": 1
         },
         "citadel": {
           "animation": "sprites/towns/jurassica/buildings/citadel.json",
           "border": "sprites/towns/jurassica/buildings/citadel_border.png",
           "area": "sprites/towns/jurassica/buildings/citadel_area.png",
-          "x": 350,
+          "x": 240,
           "y": 30,
           "z": 2,
           "hidden": true
@@ -224,8 +224,8 @@
           "animation": "sprites/towns/jurassica/buildings/castle.json",
           "border": "sprites/towns/jurassica/buildings/castle_border.png",
           "area": "sprites/towns/jurassica/buildings/castle_area.png",
-          "x": 350,
-          "y": 30,
+          "x": 200,
+          "y": 10,
           "z": 3,
           "hidden": true
         },
@@ -233,35 +233,35 @@
           "animation": "sprites/towns/jurassica/buildings/mageGuild1.json",
           "border": "sprites/towns/jurassica/buildings/mageGuild1_border.png",
           "area": "sprites/towns/jurassica/buildings/mageGuild1_area.png",
-          "x": 680,
-          "y": 100,
-          "z": 1
+          "x": 560,
+          "y": 174,
+          "z": 8
         },
         "mageGuild2": {
           "animation": "sprites/towns/jurassica/buildings/mageGuild2.json",
           "border": "sprites/towns/jurassica/buildings/mageGuild2_border.png",
           "area": "sprites/towns/jurassica/buildings/mageGuild2_area.png",
-          "x": 680,
-          "y": 100,
-          "z": 2,
+          "x": 560,
+          "y": 174,
+          "z": 8,
           "hidden": true
         },
         "mageGuild3": {
           "animation": "sprites/towns/jurassica/buildings/mageGuild3.json",
           "border": "sprites/towns/jurassica/buildings/mageGuild3_border.png",
           "area": "sprites/towns/jurassica/buildings/mageGuild3_area.png",
-          "x": 680,
-          "y": 100,
-          "z": 3,
+          "x": 560,
+          "y": 174,
+          "z": 8,
           "hidden": true
         },
         "mageGuild4": {
           "animation": "sprites/towns/jurassica/buildings/mageGuild4.json",
           "border": "sprites/towns/jurassica/buildings/mageGuild4_border.png",
           "area": "sprites/towns/jurassica/buildings/mageGuild4_area.png",
-          "x": 680,
-          "y": 100,
-          "z": 4,
+          "x": 560,
+          "y": 174,
+          "z": 8,
           "hidden": true
         },
         "tavern": {
@@ -300,109 +300,109 @@
           "animation": "sprites/towns/jurassica/buildings/dwelling1.json",
           "border": "sprites/towns/jurassica/buildings/dwelling1_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling1_area.png",
-          "x": 230,
-          "y": 145,
-          "z": 5
+          "x": 0,
+          "y": 80,
+          "z": 4
         },
         "dwelling2": {
           "animation": "sprites/towns/jurassica/buildings/dwelling2.json",
           "border": "sprites/towns/jurassica/buildings/dwelling2_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling2_area.png",
-          "x": 570,
-          "y": 180,
-          "z": 5
+          "x": 530,
+          "y": 174,
+          "z": 7
         },
         "dwelling3": {
           "animation": "sprites/towns/jurassica/buildings/dwelling3.json",
           "border": "sprites/towns/jurassica/buildings/dwelling3_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling3_area.png",
-          "x": 240,
-          "y": 220,
-          "z": 5
+          "x": 280,
+          "y": 174,
+          "z": 7
         },
         "dwelling4": {
           "animation": "sprites/towns/jurassica/buildings/dwelling4.json",
           "border": "sprites/towns/jurassica/buildings/dwelling4_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling4_area.png",
-          "x": 580,
-          "y": 120,
-          "z": 5
+          "x": 540,
+          "y": 10,
+          "z": 3
         },
         "dwelling5": {
           "animation": "sprites/towns/jurassica/buildings/dwelling5.json",
           "border": "sprites/towns/jurassica/buildings/dwelling5_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling5_area.png",
-          "x": 350,
-          "y": 140,
-          "z": 5
+          "x": 270,
+          "y": 0,
+          "z": 2
         },
         "dwelling6": {
           "animation": "sprites/towns/jurassica/buildings/dwelling6.json",
           "border": "sprites/towns/jurassica/buildings/dwelling6_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling6_area.png",
-          "x": 350,
-          "y": 260,
-          "z": 5
+          "x": 0,
+          "y": 134,
+          "z": 6
         },
         "dwelling7": {
           "animation": "sprites/towns/jurassica/buildings/dwelling7.json",
           "border": "sprites/towns/jurassica/buildings/dwelling7_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling7_area.png",
-          "x": 700,
-          "y": 220,
+          "x": 520,
+          "y": 100,
           "z": 5
         },
         "upgDwelling1": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling1.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling1_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling1_area.png",
-          "x": 230,
-          "y": 145,
-          "z": 6,
+          "x": 0,
+          "y": 80,
+          "z": 4,
           "hidden": true
         },
         "upgDwelling2": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling2.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling2_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling2_area.png",
-          "x": 570,
-          "y": 180,
-          "z": 6,
+          "x": 530,
+          "y": 174,
+          "z": 7,
           "hidden": true
         },
         "upgDwelling3": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling3.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling3_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling3_area.png",
-          "x": 240,
-          "y": 220,
-          "z": 6,
+          "x": 280,
+          "y": 174,
+          "z": 7,
           "hidden": true
         },
         "upgDwelling4": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling4.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling4_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling4_area.png",
-          "x": 580,
-          "y": 120,
-          "z": 6,
+          "x": 540,
+          "y": 10,
+          "z": 3,
           "hidden": true
         },
         "upgDwelling5": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling5.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling5_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling5_area.png",
-          "x": 350,
-          "y": 140,
-          "z": 6,
+          "x": 270,
+          "y": 0,
+          "z": 2,
           "hidden": true
         },
         "upgDwelling6": {
           "animation": "sprites/towns/jurassica/buildings/upgDwelling6.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling6_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling6_area.png",
-          "x": 350,
-          "y": 260,
+          "x": 0,
+          "y": 134,
           "z": 6,
           "hidden": true
         },
@@ -410,9 +410,9 @@
           "animation": "sprites/towns/jurassica/buildings/upgDwelling7.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling7_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling7_area.png",
-          "x": 700,
-          "y": 220,
-          "z": 6,
+          "x": 520,
+          "y": 100,
+          "z": 5,
           "hidden": true
         },
         "horde1": {
