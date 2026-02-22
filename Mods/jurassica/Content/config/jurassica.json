@@ -31,8 +31,12 @@
       "buildingsIcons": "sprites/towns/jurassica/buildings/icons.json",
       "hallBackground": "towns/jurassica/hallBackground.png",
       "townBackground": "towns/jurassica/townBackground.png",
-      "guildWindow": ["towns/jurassica/guildWindow.png"],
-      "guildBackground": ["towns/jurassica/guildBackground.png"],
+      "guildWindow": [
+        "towns/jurassica/guildWindow.png"
+      ],
+      "guildBackground": [
+        "towns/jurassica/guildBackground.png"
+      ],
       "musicTheme": [
         "music/jurassicaTown"
       ],
@@ -296,16 +300,16 @@
           "animation": "sprites/towns/jurassica/buildings/dwelling1.json",
           "border": "sprites/towns/jurassica/buildings/dwelling1_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling1_area.png",
-          "x": 240,
-          "y": 120,
+          "x": 230,
+          "y": 145,
           "z": 5
         },
         "dwelling2": {
           "animation": "sprites/towns/jurassica/buildings/dwelling2.json",
           "border": "sprites/towns/jurassica/buildings/dwelling2_border.png",
           "area": "sprites/towns/jurassica/buildings/dwelling2_area.png",
-          "x": 580,
-          "y": 200,
+          "x": 570,
+          "y": 180,
           "z": 5
         },
         "dwelling3": {
@@ -352,8 +356,8 @@
           "animation": "sprites/towns/jurassica/buildings/upgDwelling1.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling1_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling1_area.png",
-          "x": 240,
-          "y": 120,
+          "x": 230,
+          "y": 145,
           "z": 6,
           "hidden": true
         },
@@ -361,8 +365,8 @@
           "animation": "sprites/towns/jurassica/buildings/upgDwelling2.json",
           "border": "sprites/towns/jurassica/buildings/upgDwelling2_border.png",
           "area": "sprites/towns/jurassica/buildings/upgDwelling2_area.png",
-          "x": 580,
-          "y": 200,
+          "x": 570,
+          "y": 180,
           "z": 6,
           "hidden": true
         },
